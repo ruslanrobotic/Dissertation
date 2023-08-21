@@ -1,0 +1,23 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1251"
+CID=fffffffe
+parentCID=ffffffff
+createType="fullDevice"
+
+# Extent description
+RW 15249408 FLAT "\\.\PhysicalDrive2" 0 partitionUUID \\?\usbstor#disk&ven_kingston&prod_datatraveler_2.0&rev_pmap#1c6f654e5934b031f931cebc&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "ide"
+ddb.geometry.biosCylinders = "949"
+ddb.geometry.biosHeads = "255"
+ddb.geometry.biosSectors = "63"
+ddb.geometry.cylinders = "949"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "240e89898d785587354b47b5fffffffe"
+ddb.uuid = "60 00 C2 95 f5 6c 88 4a-fd c0 69 a8 12 a6 5b 50"
+ddb.virtualHWVersion = "7"
