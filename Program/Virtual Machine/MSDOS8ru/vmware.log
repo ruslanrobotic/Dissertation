@@ -1,0 +1,1826 @@
+2020-03-19T15:06:44.968+03:00| vmx| I125: Log for VMware Workstation pid=5372 version=15.5.0 build=build-14665864 option=Release
+2020-03-19T15:06:44.968+03:00| vmx| I125: The process is 64-bit.
+2020-03-19T15:06:44.968+03:00| vmx| I125: Host codepage=windows-1251 encoding=windows-1251
+2020-03-19T15:06:44.968+03:00| vmx| I125: Host is Windows 10, 64-bit  (Build 18363)
+2020-03-19T15:06:44.945+03:00| vmx| I125: VTHREAD 2696 "vmx"
+2020-03-19T15:06:44.948+03:00| vmx| I125: DictionaryLoad: Cannot open file "C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\techPreview.cfg": The system cannot find the path specified.
+2020-03-19T15:06:44.948+03:00| vmx| I125: [msg.dictionary.load.openFailed] Cannot open file "C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\techPreview.cfg": The system cannot find the path specified.
+2020-03-19T15:06:44.948+03:00| vmx| I125: FeatureStateLib: Error while loading tech preview config file: C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\techPreview.cfg, using default (disabled) for all Tech Preview features.
+2020-03-19T15:06:44.948+03:00| vmx| I125: LOCALE windows-1251 -> NULL User=407 System=419
+2020-03-19T15:06:44.948+03:00| vmx| I125: Msg_SetLocaleEx: HostLocale=windows-1251 UserLocale=NULL
+2020-03-19T15:06:44.948+03:00| vmx| I125: DictionaryLoad: Cannot open file "C:\Users\Ruslan\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2020-03-19T15:06:44.948+03:00| vmx| I125: Msg_Reset:
+2020-03-19T15:06:44.948+03:00| vmx| I125: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\Ruslan\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2020-03-19T15:06:44.948+03:00| vmx| I125: ----------------------------------------
+2020-03-19T15:06:44.948+03:00| vmx| I125: ConfigDB: Failed to load C:\Users\Ruslan\AppData\Roaming\VMware\config.ini
+2020-03-19T15:06:44.948+03:00| vmx| I125: Win32U_GetFileAttributes: GetFileAttributesExW("G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmpl", ...) failed, error: 2
+2020-03-19T15:06:44.948+03:00| vmx| I125: OBJLIB-LIB: Objlib initialized.
+2020-03-19T15:06:44.959+03:00| vmx| I125: DictionaryLoad: Cannot open file "C:\Users\Ruslan\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2020-03-19T15:06:44.959+03:00| vmx| I125: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\Ruslan\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2020-03-19T15:06:44.959+03:00| vmx| I125: PREF Optional preferences file not found at C:\Users\Ruslan\AppData\Roaming\VMware\config.ini. Using default values.
+2020-03-19T15:06:44.959+03:00| vmx| I125: UUID: SMBIOS UUID is reported as '1c 1c a7 e1 fc fb b1 74-24 37 a2 41 34 d6 8e d3'.
+2020-03-19T15:06:44.959+03:00| vmx| I125: FILE: FileLockDynaLink: Further process validation tools are: available
+2020-03-19T15:06:44.968+03:00| vmx| I125: lib/ssl: OpenSSL using FIPS_drbg for RAND
+2020-03-19T15:06:44.968+03:00| vmx| I125: lib/ssl: protocol list tls1.2
+2020-03-19T15:06:44.968+03:00| vmx| I125: lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2020-03-19T15:06:44.968+03:00| vmx| I125: lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2020-03-19T15:06:44.968+03:00| vmx| I125: lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2020-03-19T15:06:44.979+03:00| vmx| I125: Hostname=RuslanPC
+2020-03-19T15:06:44.981+03:00| vmx| I125: IP=fe80::90f7:4c4e:663d:a6e9%13
+2020-03-19T15:06:44.981+03:00| vmx| I125: IP=fe80::b194:55a0:a6f3:7501%6
+2020-03-19T15:06:44.981+03:00| vmx| I125: IP=fe80::4c72:e534:f252:1fe9%9
+2020-03-19T15:06:44.981+03:00| vmx| I125: IP=192.168.1.68
+2020-03-19T15:06:44.981+03:00| vmx| I125: IP=192.168.243.1
+2020-03-19T15:06:44.981+03:00| vmx| I125: IP=192.168.75.1
+2020-03-19T15:06:45.019+03:00| vmx| I125: System uptime 272600905058 us
+2020-03-19T15:06:45.019+03:00| vmx| I125: Command line: "G:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=15.5.0;buildnumber=14665864;licensename=VMware Workstation;licenseversion=15.0+;" "-@" "pipe=\\.\pipe\vmxac55b477515b8985;msgs=ui" "G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmx"
+2020-03-19T15:06:45.019+03:00| vmx| I125: Msg_SetLocaleEx: HostLocale=windows-1251 UserLocale=NULL
+2020-03-19T15:06:45.058+03:00| vmx| I125: WQPoolAllocPoll : pollIx = 1, signalHandle = 720
+2020-03-19T15:06:45.058+03:00| vmx| I125: WQPoolAllocPoll : pollIx = 2, signalHandle = 712
+2020-03-19T15:06:45.058+03:00| vmx| I125: VigorTransport listening on fd 796
+2020-03-19T15:06:45.058+03:00| vmx| I125: Vigor_Init 1
+2020-03-19T15:06:45.058+03:00| vmx| I125: Connecting 'ui' to pipe '\\.\pipe\vmxac55b477515b8985' with user '(null)'
+2020-03-19T15:06:45.061+03:00| vmx| I125: VMXVmdb: Local connection timeout: 60000 ms.
+2020-03-19T15:06:45.159+03:00| vmx| I125: VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2020-03-19T15:06:45.162+03:00| vmx| I125: Vix: [mainDispatch.c:486]: VMAutomation: Initializing VMAutomation.
+2020-03-19T15:06:45.164+03:00| vmx| I125: Vix: [mainDispatch.c:738]: VMAutomationOpenListenerSocket() listening
+2020-03-19T15:06:45.188+03:00| vmx| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2020-03-19T15:06:45.188+03:00| vmx| I125: Transitioned vmx/execState/val to poweredOff
+2020-03-19T15:06:45.188+03:00| vmx| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2020-03-19T15:06:45.188+03:00| vmx| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2020-03-19T15:06:45.188+03:00| vmx| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2020-03-19T15:06:45.228+03:00| vmx| I125: IOPL_VBSRunning: VBS is set to 0
+2020-03-19T15:06:45.228+03:00| vmx| I125: IOCTL_VMX86_SET_MEMORY_PARAMS already set
+2020-03-19T15:06:45.228+03:00| vmx| I125: FeatureCompat: No EVC masks.
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID vendor: GenuineIntel
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID family: 0x6 model: 0x3c stepping: 0x3
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID codename: Haswell DT
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID name: Intel(R) Core(TM) i7-4710MQ CPU @ 2.50GHz
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000001, 0: 0x000306c3 0x00100800 0x7fdafbbf 0xbfebfbff
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000002, 0: 0x76036301 0x00f0b5ff 0x00000000 0x00c10000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000004, 0: 0x1c004121 0x01c0003f 0x0000003f 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000004, 1: 0x1c004122 0x01c0003f 0x0000003f 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000004, 2: 0x1c004143 0x01c0003f 0x000001ff 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000004, 3: 0x1c03c163 0x02c0003f 0x00001fff 0x00000006
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000004, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00042120
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000006, 0: 0x00000077 0x00000002 0x00000009 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000007, 0: 0x00000000 0x000027ab 0x00000000 0x9c000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 0000000a, 0: 0x07300403 0x00000000 0x00000000 0x00000603
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 0000000b, 1: 0x00000004 0x00000008 0x00000201 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 0000000d, 0: 0x00000007 0x00000340 0x00000340 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 0000000d, 1: 0x00000001 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000021 0x2c100800
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 80000003, 0: 0x37692029 0x3137342d 0x20514d30 0x20555043
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 80000004, 0: 0x2e322040 0x48473035 0x0000007a 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x01006040 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2020-03-19T15:06:45.228+03:00| vmx| I125: hostCPUID level 80000008, 0: 0x00003027 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: CPUID differences from hostCPUID.
+2020-03-19T15:06:45.228+03:00| vmx| I125: Physical APIC IDs: 0-7
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR       0x3a =                0x5
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x480 =   0xda040000000012
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x481 =       0x7f00000016
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x482 = 0xfff9fffe0401e172
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x483 =   0x7fffff00036dff
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x484 =     0xffff000011ff
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x485 =         0x300481e5
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x486 =         0x80000021
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x487 =         0xffffffff
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x488 =             0x2000
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x489 =           0x1727ff
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x48a =               0x2a
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x48b =     0x3cff00000000
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x48c =      0xf0106334141
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x48d =       0x7f00000016
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x48e = 0xfff9fffe04006172
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x48f =   0x7fffff00036dfb
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x490 =     0xffff000011fb
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x491 =                0x1
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR 0xc0010114 =                  0
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR       0xce =    0x80838f3011900
+2020-03-19T15:06:45.228+03:00| vmx| I125: Common: MSR      0x10a =                  0
+2020-03-19T15:06:45.228+03:00| vmx| I125: VMMon_GetkHzEstimate: Calculated 2494238 kHz
+2020-03-19T15:06:45.241+03:00| vmx| I125: HOSTINFO: Host supports constant rate TSC.
+2020-03-19T15:06:45.241+03:00| vmx| I125: TSC kHz estimates: vmmon 2494238, remembered 0, osReported 2501000. Using 2494238 kHz.
+2020-03-19T15:06:45.241+03:00| vmx| I125: TSC first measured delta 217
+2020-03-19T15:06:45.241+03:00| vmx| I125: TSC min delta 217
+2020-03-19T15:06:45.241+03:00| vmx| I125: PTSC: RefClockToPTSC 0 @ 10000000Hz -> 0 @ 2494238000Hz
+2020-03-19T15:06:45.241+03:00| vmx| I125: PTSC: RefClockToPTSC ((x * 4184636968) >> 24) + -407262103541221
+2020-03-19T15:06:45.241+03:00| vmx| I125: PTSC: tscOffset -407657969090519
+2020-03-19T15:06:45.241+03:00| vmx| I125: PTSC: using TSC
+2020-03-19T15:06:45.241+03:00| vmx| I125: PTSC: hardware TSCs are synchronized.
+2020-03-19T15:06:45.241+03:00| vmx| I125: PTSC: hardware TSCs may have been adjusted by the host.
+2020-03-19T15:06:45.241+03:00| vmx| I125: PTSC: current PTSC=6979472254485
+2020-03-19T15:06:45.241+03:00| vmx| I125: WQPoolAllocPoll : pollIx = 3, signalHandle = 1016
+2020-03-19T15:06:45.308+03:00| vmx| I125: ConfigCheck: No rules file found. Checks are disabled.
+2020-03-19T15:06:45.308+03:00| vmx| I125: changing directory to G:\Virtual Machines\MSDOS8ru\.
+2020-03-19T15:06:45.308+03:00| vmx| I125: Config file: G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmx
+2020-03-19T15:06:45.308+03:00| vmx| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2020-03-19T15:06:45.308+03:00| vmx| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2020-03-19T15:06:45.399+03:00| vmx| W115: PowerOn
+2020-03-19T15:06:45.399+03:00| vmx| I125: VMX_PowerOn: VMX build 14665864, UI build 14665864
+2020-03-19T15:06:45.399+03:00| vmx| I125: HostWin32: WIN32 NUMA node 0, CPU mask 0x00000000000000ff
+2020-03-19T15:06:45.402+03:00| vmx| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2020-03-19T15:06:45.402+03:00| vmx| I125: HOST Windows version 10.0, build 18363, platform 2, ""
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT          printers.enabled = "FALSE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT --- NON PERSISTENT (null)
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT --- USER PREFERENCES C:\Users\Ruslan\AppData\Roaming\VMware\preferences.ini
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT   pref.lastUpdateCheckSec = "1584616331"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT         vmWizard.guestKey = "ubuntu-64"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT vmWizard.installMediaType = "iso"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT vmWizard.isoLocationMRU.count = "4"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT vmWizard.isoLocationMRU0.location = "T:\Downloads\ubuntu-18.04.2-desktop-amd64.iso"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT        pref.hostMRU.count = "1"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT        pref.hostMRU0.name = "localhost"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT        pref.hostMRU0.type = "vim"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window.count = "1"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab.count = "2"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.sidebar = "FALSE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.sidebar.width = "250"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.statusBar = "TRUE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tabs = "TRUE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.thumbnailBar.size = "100"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.thumbnailBar.view = "same-folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.placement.left = "0"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.placement.top = "236"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.placement.right = "838"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.placement.bottom = "875"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.maximized = "TRUE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT  pref.sharedFolder.maxNum = "6"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder0.vmPath = "/vm/#00ede3807d715866/"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder0.guestName = "Share Folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder0.hostPath = "G:\Share Folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder0.enabled = "FALSE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT  pref.fullscreen.autohide = "TRUE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT vmWizard.isoLocationMRU1.location = "T:\Downloads\Windows XP Pro sp3 VL (MSDN)\en_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73974.iso"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab2.cnxType = "vmdb"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT vmWizard.isoLocationMRU2.location = "C:\Users\Ruslan\Downloads\android-x86_64-7.1-r2 (1).iso"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore.numItems = "5"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore0.key = <not printed>
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore0.value = "24b35a17-7246-40e0-8d42-edbe06e31edb"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore1.key = <not printed>
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore1.value = "753e62b4-8965-4c32-a5f9-c04cf4f93067"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore2.key = <not printed>
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore2.value = "b4e6bffb-c7db-4ca0-98e0-95b4ae99910f"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder1.vmPath = "/vm/#7e20eb3c2a29fadd/"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder1.guestName = "Share Folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder1.hostPath = "G:\Share Folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder1.enabled = "TRUE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder2.vmPath = "/vm/#90cd4fce4a1c8dcd/"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder2.guestName = "Share Folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder2.hostPath = "G:\Share Folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder2.enabled = "FALSE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder3.vmPath = "/vm/#ac55b477515b8985/"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder3.guestName = "DOSFold"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder3.hostPath = "T:\Workfolder\DOSFold"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder3.enabled = "TRUE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT vmWizard.isoLocationMRU3.location = "T:\Workfolder\ubuntu-18.04-desktop-amd64.iso"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore3.key = <not printed>
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore3.value = "c9505d4f-7b41-439a-a41b-265009b1efe0"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT hint.usb.generic.stopDevice = "FALSE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT             hints.hideAll = "FALSE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore4.key = <not printed>
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.updatesVersionIgnore4.value = "0d0429a8-d054-4f86-adfc-2740b2354c54"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder4.vmPath = "/vm/#deff5f89d4516973/"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder4.guestName = "Share Folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder4.hostPath = "G:\Share Folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder4.enabled = "TRUE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab0.dest = ""
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab0.file = ""
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab0.type = "home"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab0.focused = "FALSE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab1.dest = ""
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab1.file = "G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmx"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab1.type = "vm"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.ws.session.window0.tab1.focused = "TRUE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder5.vmPath = "/vm/#edd5c71d821c0b25/"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder5.guestName = "Share Folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder5.hostPath = "G:\Share Folder"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.sharedFolder5.enabled = "FALSE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT       pref.usbDev.maxDevs = "1"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT     pref.usbDev0.deviceID = "0930-6545-1C6F654E5934B031F931CEBC"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT pref.usbDev0.showInStatusbar = "TRUE"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT       pref.usbDev0.iconID = "6"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT --- USER DEFAULTS C:\Users\Ruslan\AppData\Roaming\VMware\config.ini
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.supportURL = "http://repacks.ddns.net"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT         authd.client.port = "903"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "8614"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.componentDownloadEnabled = "yes"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled = "no"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled.epoch = "8614"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.supportURL = "http://repacks.ddns.net"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT         authd.client.port = "903"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "8614"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.componentDownloadEnabled = "yes"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled = "no"
+2020-03-19T15:06:45.402+03:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled.epoch = "8614"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT --- NONPERSISTENT
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT            vmx.stdio.keep = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT             gui.available = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT --- COMMAND LINE
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT            vmx.stdio.keep = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT             gui.available = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT --- RECORDING
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT            vmx.stdio.keep = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT             gui.available = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT --- CONFIGURATION G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmx 
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT            config.version = "8"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT         virtualHW.version = "7"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT             scsi0.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT                   memsize = "16"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT            ide0:0.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT           ide0:0.fileName = "MS-DOS 8.0 Rus.vmdk"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT            ide1:0.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT           ide1:0.fileName = "F:"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT         ide1:0.deviceType = "cdrom-raw"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT        floppy0.autodetect = "FALSE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT         ethernet0.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT  ethernet0.connectionType = "hostonly"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT   ethernet0.wakeOnPcktRcv = "FALSE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT             sound.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT            sound.fileName = "-1"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT          sound.autodetect = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT              mks.enable3d = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT        pciBridge0.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT        pciBridge4.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT     pciBridge4.virtualDev = "pcieRootPort"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT      pciBridge4.functions = "8"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT        pciBridge5.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT     pciBridge5.virtualDev = "pcieRootPort"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT      pciBridge5.functions = "8"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT        pciBridge6.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT     pciBridge6.virtualDev = "pcieRootPort"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT      pciBridge6.functions = "8"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT        pciBridge7.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT     pciBridge7.virtualDev = "pcieRootPort"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT      pciBridge7.functions = "8"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT             vmci0.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT    roamingVM.exitBehavior = "go"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT               displayName = "MS-DOS 8.0 Rus"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT                   guestOS = "dos"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT                     nvram = "MS-DOS 8.0 Rus.nvram"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT virtualHW.productCompatibility = "hosted"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT     ft.secondary0.enabled = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT        extendedConfigFile = "MS-DOS 8.0 Rus.vmxf"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT          floppy0.fileName = "A:"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT     ethernet0.addressType = "generated"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT             uuid.location = "56 4d d4 ef af c1 7d cb-60 0f 37 a5 3a 8a 9f b8"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT                 uuid.bios = "56 4d 48 48 ff e8 0f 06-35 09 b6 e5 82 84 f7 46"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT               ide0:0.redo = ""
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT  vmotion.checkpointFBSize = "16777216"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT  pciBridge0.pciSlotNumber = "17"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT  pciBridge4.pciSlotNumber = "21"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT  pciBridge5.pciSlotNumber = "22"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT  pciBridge6.pciSlotNumber = "23"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT  pciBridge7.pciSlotNumber = "24"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT       scsi0.pciSlotNumber = "16"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT   ethernet0.pciSlotNumber = "32"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT       sound.pciSlotNumber = "33"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT       vmci0.pciSlotNumber = "34"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT ethernet0.generatedAddress = "00:0c:29:84:f7:46"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT ethernet0.generatedAddressOffset = "0"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT                  vmci0.id = "-2105215162"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT         ide1:0.autodetect = "FALSE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT          floppy0.fileType = "device"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT      floppy0.clientDevice = "FALSE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT            tools.syncTime = "FALSE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT    debugStub.linuxOffsets = "0x0,0xffffffff,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT  ethernet0.startConnected = "FALSE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT      numa.autosize.cookie = "10001"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT numa.autosize.vcpu.maxPerVirtualNode = "1"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT           migrate.hostlog = ".\MS-DOS 8.0 Rus-af475d57.hlog"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT    monitor.phys_bits_used = "40"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT             cleanShutdown = "FALSE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT              softPowerOff = "FALSE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT         usb.pciSlotNumber = "35"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT               usb.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT        checkpoint.vmState = ""
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT               usb:1.speed = "2"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT             usb:1.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT          usb:1.deviceType = "hub"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT                usb:1.port = "1"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT              usb:1.parent = "-1"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT isolation.tools.hgfs.disable = "FALSE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT     sharedFolder0.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT     sharedFolder0.enabled = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT  sharedFolder0.readAccess = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT sharedFolder0.writeAccess = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT    sharedFolder0.hostPath = "T:\Workfolder\DOSFold"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT   sharedFolder0.guestName = "DOSFold"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT  sharedFolder0.expiration = "never"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT       sharedFolder.maxNum = "1"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT      usb.generic.allowHID = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT         ide0:1.deviceType = "rawDisk"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT           ide0:1.fileName = "MS-DOS 8.0 Rus-0.vmdk"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT            ide0:1.present = "TRUE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT               ide0:1.redo = ""
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT --- USER DEFAULTS C:\Users\Ruslan\AppData\Roaming\VMware\config.ini 
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.supportURL = "http://repacks.ddns.net"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT         authd.client.port = "903"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "8614"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.componentDownloadEnabled = "yes"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled = "no"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled.epoch = "8614"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.supportURL = "http://repacks.ddns.net"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT         authd.client.port = "903"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "8614"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.componentDownloadEnabled = "yes"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled = "no"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled.epoch = "8614"
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2020-03-19T15:06:45.419+03:00| vmx| I125: DICT          printers.enabled = "FALSE"
+2020-03-19T15:06:45.419+03:00| vmx| I125: ToolsISO: open of G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2020-03-19T15:06:45.419+03:00| vmx| I125: ToolsISO: Unable to read signature file 'G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2020-03-19T15:06:45.419+03:00| vmx| I125: ToolsISO: Guest 'dos' not found in Tools image map file 'G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt'
+2020-03-19T15:06:45.419+03:00| vmx| I125: ToolsISO: Updated cached value for imageName to '(null)'.
+2020-03-19T15:06:45.419+03:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2020-03-19T15:06:45.419+03:00| vmx| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2020-03-19T15:06:45.429+03:00| vmx| I125: OvhdMem_PowerOn: initial admission: paged  1063677 nonpaged     5707 anonymous     3618
+2020-03-19T15:06:45.429+03:00| vmx| I125: VMMEM: Initial Reservation: 4191MB (MainMem=16MB)
+2020-03-19T15:06:45.429+03:00| vmx| I125: MemSched_PowerOn: balloon minGuestSize 3276 (80% of min required size 4096)
+2020-03-19T15:06:45.429+03:00| vmx| I125: MemSched: reserved mem (in MB) min 128 max 6346 recommended 6346
+2020-03-19T15:06:45.429+03:00| vmx| I125: MemSched: pg 1063677 np 5707 anon 3618 mem 4096
+2020-03-19T15:06:45.445+03:00| vmx| I125: MemSched: numvm 1 locked pages: num 0 max 1479729
+2020-03-19T15:06:45.445+03:00| vmx| I125: MemSched: locked Page Limit: host 1659162 config 1624576 dynam 1487921
+2020-03-19T15:06:45.445+03:00| vmx| I125: MemSched: minmempct 50 minalloc 0 admitted 1
+2020-03-19T15:06:45.445+03:00| WinNotifyThread| I125: VTHREAD 17224 "WinNotifyThread"
+2020-03-19T15:06:45.445+03:00| WinNotifyThread| I125: WinNotify thread is alive
+2020-03-19T15:06:45.448+03:00| vmx| I125: LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.15.0.e2.201804' 
+2020-03-19T15:06:45.448+03:00| vthread-32980| I125: VTHREAD 32980 "vthread-32980"
+2020-03-19T15:06:45.448+03:00| vmx| I125: Win32U_GetFileAttributes: GetFileAttributesExW("G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmpl", ...) failed, error: 2
+2020-03-19T15:06:45.448+03:00| vmx| I125: PolicyVMXFindPolicyKey: policy file does not exist.
+2020-03-19T15:06:45.448+03:00| vmx| I125: Win32U_GetFileAttributes: GetFileAttributesExW("G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmpl", ...) failed, error: 2
+2020-03-19T15:06:45.448+03:00| vmx| I125: PolicyVMXFindPolicyKey: policy file does not exist.
+2020-03-19T15:06:45.448+03:00| vmx| I125: ToolsISO: open of G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2020-03-19T15:06:45.448+03:00| vmx| I125: ToolsISO: Unable to read signature file 'G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2020-03-19T15:06:45.448+03:00| vmx| I125: ToolsISO: Guest 'dos' not found in Tools image map file 'G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt'
+2020-03-19T15:06:45.448+03:00| vmx| I125: ToolsISO: Updated cached value for imageName to '(null)'.
+2020-03-19T15:06:45.448+03:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2020-03-19T15:06:45.448+03:00| vmx| I125: Host VT-x Capabilities:
+2020-03-19T15:06:45.448+03:00| vmx| I125: Basic VMX Information (0x00da040000000012)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   VMCS revision ID                  18
+2020-03-19T15:06:45.448+03:00| vmx| I125:   VMCS region length              1024
+2020-03-19T15:06:45.448+03:00| vmx| I125:   VMX physical-address width   natural
+2020-03-19T15:06:45.448+03:00| vmx| I125:   SMM dual-monitor mode            yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Advanced INS/OUTS info           yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   True VMX MSRs                    yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   VMCS memory type                  WB
+2020-03-19T15:06:45.448+03:00| vmx| I125: True Pin-Based VM-Execution Controls (0x0000007f00000016)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   External-interrupt exiting               {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   NMI exiting                              {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Virtual NMIs                             {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Activate VMX-preemption timer            {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Process posted interrupts                { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125: True Primary Processor-Based VM-Execution Controls (0xfff9fffe04006172)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Interrupt-window exiting                 {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Use TSC offsetting                       {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   HLT exiting                              {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   INVLPG exiting                           {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   MWAIT exiting                            {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   RDPMC exiting                            {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   RDTSC exiting                            {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   CR3-load exiting                         {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   CR3-store exiting                        {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   CR8-load exiting                         {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   CR8-store exiting                        {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Use TPR shadow                           {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   NMI-window exiting                       {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   MOV-DR exiting                           {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Unconditional I/O exiting                {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Use I/O bitmaps                          {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Monitor trap flag                        {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Use MSR bitmaps                          {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   MONITOR exiting                          {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   PAUSE exiting                            {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Activate secondary controls              {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125: Secondary Processor-Based VM-Execution Controls (0x00003cff00000000)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Virtualize APIC accesses                 {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Enable EPT                               {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Descriptor-table exiting                 {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Enable RDTSCP                            {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Virtualize x2APIC mode                   {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Enable VPID                              {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   WBINVD exiting                           {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Unrestricted guest                       {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   APIC-register virtualization             { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Virtual-interrupt delivery               { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   PAUSE-loop exiting                       {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   RDRAND exiting                           {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Enable INVPCID                           {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Enable VM Functions                      {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Use VMCS shadowing                       { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   ENCLS exiting                            { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   RDSEED exiting                           { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Enable PML                               { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   EPT-violation #VE                        { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Enable XSAVES/XRSTORS                    { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Mode-based execute control for EPT       { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Use TSC scaling                          { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Enable ENCLV in VMX non-root mode        { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Enable EPC Virtualization Extensions     { 0 }
+2020-03-19T15:06:45.448+03:00| vmx| I125: True VM-Exit Controls (0x007fffff00036dfb)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Save debug controls                      {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Host address-space size                  {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Load IA32_PERF_GLOBAL_CTRL               {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Acknowledge interrupt on exit            {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Save IA32_PAT                            {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Load IA32_PAT                            {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Save IA32_EFER                           {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Load IA32_EFER                           {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Save VMX-preemption timer                {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125: True VM-Entry Controls (0x0000ffff000011fb)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Load debug controls                      {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   IA-32e mode guest                        {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Entry to SMM                             {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Deactivate dual-monitor mode             {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Load IA32_PERF_GLOBAL_CTRL               {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Load IA32_PAT                            {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Load IA32_EFER                           {0,1}
+2020-03-19T15:06:45.448+03:00| vmx| I125: VPID and EPT Capabilities (0x00000f0106334141)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   R=0/W=0/X=1                      yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Page-walk length 3               yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   EPT memory type WB               yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   2MB super-page                   yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   1GB super-page                   yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   INVEPT support                   yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Access & Dirty Bits              yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Advanced VM exit information for EPT violations    no
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Type 1 INVEPT                    yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Type 2 INVEPT                    yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   INVVPID support                  yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Type 0 INVVPID                   yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Type 1 INVVPID                   yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Type 2 INVVPID                   yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Type 3 INVVPID                   yes
+2020-03-19T15:06:45.448+03:00| vmx| I125: Miscellaneous VMX Data (0x00000000300481e5)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   TSC to preemption timer ratio      5
+2020-03-19T15:06:45.448+03:00| vmx| I125:   VM-Exit saves EFER.LMA           yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Activity State HLT               yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Activity State shutdown          yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Activity State wait-for-SIPI     yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   CR3 targets supported              4
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Maximum MSR list size            512
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Allow all VMWRITEs               yes
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Allow zero instruction length     no
+2020-03-19T15:06:45.448+03:00| vmx| I125:   MSEG revision ID                   0
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Processor trace in VMX            no
+2020-03-19T15:06:45.448+03:00| vmx| I125: VMX-Fixed Bits in CR0 (0x0000000080000021/0x00000000ffffffff)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Fixed to 0        0xffffffff00000000
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Fixed to 1        0x0000000080000021
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Variable          0x000000007fffffde
+2020-03-19T15:06:45.448+03:00| vmx| I125: VMX-Fixed Bits in CR4 (0x0000000000002000/0x00000000001727ff)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Fixed to 0        0xffffffffffe8d800
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Fixed to 1        0x0000000000002000
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Variable          0x00000000001707ff
+2020-03-19T15:06:45.448+03:00| vmx| I125: VMCS Enumeration (0x000000000000002a)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Highest index                   0x15
+2020-03-19T15:06:45.448+03:00| vmx| I125: VM Functions (0x0000000000000001)
+2020-03-19T15:06:45.448+03:00| vmx| I125:   Function  0 (EPTP-switching) supported.
+2020-03-19T15:06:45.448+03:00| vmx| I125: Monitor_PowerOn: HostedVSMP skew tracking is disabled
+2020-03-19T15:06:45.448+03:00| vmx| I125: Loaded crosspage: .crosspage. Size = 4096 bytes.
+2020-03-19T15:06:45.448+03:00| vmx| I125: vmm64-modules: [vmm.vmm64, vmce-none.vmm64, viommu-none.vmm64, vprobe-none.vmm64, hv-vt.vmm64, gphys-ept.vmm64, callstack-none.vmm64, swstats-none.vmm64, gi-none.vmm64, gmm-none.vmm64, buslogic-buslogic.vmm64, !busLogicShared=0x0, !vmSamples=0x40, !theIOSpace=0x80, !ttGPPerVcpu=0x63c0, {UseUnwind}=0x0, numVCPUsAsAddr=0x1, {SharedAreaReservations}=0x6400, {rodataSize}=0x1fbc0, {textAddr}=0xfffffffffc000000, {textSize}=0x8e9a2, <MonSrcFile>]
+2020-03-19T15:06:45.448+03:00| vmx| I125: vmm64-vcpus:   1
+2020-03-19T15:06:45.473+03:00| vmx| I125: KHZEstimate 2494238
+2020-03-19T15:06:45.473+03:00| vmx| I125: MHZEstimate 2494
+2020-03-19T15:06:45.473+03:00| vmx| I125: NumVCPUs 1
+2020-03-19T15:06:45.473+03:00| vmx| I125: MonTimer: host does not have high resolution timers.
+2020-03-19T15:06:45.478+03:00| vmx| I125: AIOGNRC: numThreads=6 ide=2, scsi=0, passthru=1
+2020-03-19T15:06:45.478+03:00| vmx| I125: WORKER: Creating new group with numThreads=6 (6)
+2020-03-19T15:06:45.478+03:00| vmx| I125: WORKER: Creating new group with numThreads=1 (7)
+2020-03-19T15:06:45.478+03:00| vmx| I125: MainMem: CPT Host WZ=0 PF=16 D=0
+2020-03-19T15:06:45.478+03:00| vmx| I125: MainMem: CPT PLS=1 PLR=1 BS=1 BlkP=32 Mult=4 W=50
+2020-03-19T15:06:45.478+03:00| vmx| I125: FILE: FileLockScanDirectory discarding M30423.lck from G:\Virtual Machines\MSDOS8ru\564dd4ef-afc1-7dcb-600f-37a53a8a9fb8.vmem.lck': invalid executionID 28968-132290931385841281(vmware-vmx.exe).
+2020-03-19T15:06:45.489+03:00| vmx| I125: MainMem: Opened paging file, 'G:\Virtual Machines\MSDOS8ru\564dd4ef-afc1-7dcb-600f-37a53a8a9fb8.vmem'.
+2020-03-19T15:06:45.489+03:00| vmx| I125: MStat: Creating Stat vm.uptime
+2020-03-19T15:06:45.489+03:00| vmx| I125: MStat: Creating Stat vm.suspendTime
+2020-03-19T15:06:45.489+03:00| vmx| I125: MStat: Creating Stat vm.powerOnTimeStamp
+2020-03-19T15:06:45.489+03:00| aioCompletion| I125: VTHREAD 24300 "aioCompletion"
+2020-03-19T15:06:45.489+03:00| vmx| I125: VMXAIOMGR: Using: simple=Compl
+2020-03-19T15:06:45.489+03:00| vmx| I125: WORKER: Creating new group with numThreads=1 (8)
+2020-03-19T15:06:45.499+03:00| vmx| I125: WORKER: Creating new group with numThreads=16 (24)
+2020-03-19T15:06:45.501+03:00| vmx| I125: FeatureCompat: No VM masks.
+2020-03-19T15:06:45.501+03:00| vmx| I125: TimeTracker host to guest rate conversion 6980120665215 @ 2494238000Hz -> 0 @ 2494238000Hz
+2020-03-19T15:06:45.501+03:00| vmx| I125: TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -6980120665215
+2020-03-19T15:06:45.501+03:00| vmx| I125: Disabling TSC scaling since host does not support it.
+2020-03-19T15:06:45.501+03:00| vmx| I125: TSC offsetting enabled.
+2020-03-19T15:06:45.501+03:00| vmx| I125: timeTracker.globalProgressMaxAllowanceMS: 2000
+2020-03-19T15:06:45.501+03:00| vmx| I125: timeTracker.globalProgressToAllowanceNS: 1000
+2020-03-19T15:06:45.501+03:00| vmx| I125: MKS PowerOn
+2020-03-19T15:06:45.502+03:00| mks| I125: VTHREAD 34772 "mks"
+2020-03-19T15:06:45.502+03:00| mks| I125: MKS thread is alive
+2020-03-19T15:06:45.502+03:00| mouse| I125: VTHREAD 24128 "mouse"
+2020-03-19T15:06:45.502+03:00| mks| I125: MKS-HookKeyboard: Keyboard hook timeout set below recommended value (found=3000, recommended=5000)
+2020-03-19T15:06:45.502+03:00| kbh| I125: VTHREAD 29748 "kbh"
+2020-03-19T15:06:45.509+03:00| mks| I125: MKS Win32: Registering top level window (0x3407f0) to receive session change notification.
+2020-03-19T15:06:45.509+03:00| mks| I125: Current Display Settings:
+2020-03-19T15:06:45.509+03:00| mks| I125:    Display: 0 size: 1920x1080  position: (0, 0) name: \\.\DISPLAY1  
+2020-03-19T15:06:45.509+03:00| mks| I125:    Display: 1 size: 1280x1024  position: (-1280, 0) name: \\.\DISPLAY2  
+2020-03-19T15:06:45.509+03:00| mks| I125: MKS Win32: MIL: 0x3000
+2020-03-19T15:06:45.509+03:00| mks| I125: MKS-RenderMain: PowerOn allowed MKSBasicOps DX11Renderer DX11BasicRenderer 
+2020-03-19T15:06:45.509+03:00| mks| I125: MKS-RenderMain: Collecting RenderOps caps from DX11Renderer
+2020-03-19T15:06:45.521+03:00| mks| W115: DX11Renderer: Enumerating adapter 0
+2020-03-19T15:06:45.521+03:00| mks| W115: DX11Renderer: `NVIDIA GeForce 840M` vendor=0x10de device=0x1341 revision=162
+2020-03-19T15:06:45.521+03:00| mks| W115: DX11Renderer: video=2010MB system=0MB shared=4062MB
+2020-03-19T15:06:45.729+03:00| mks| W115: DX11Renderer: Using device unknown; adapter `NVIDIA GeForce 840M`
+2020-03-19T15:06:45.729+03:00| mks| I125: DX11Renderer: Max 2D Texture Size=16384
+2020-03-19T15:06:45.729+03:00| mks| I125: DX11Renderer:  MapNoOverwriteOnDynamicConstantBuffer: 1
+2020-03-19T15:06:45.729+03:00| mks| I125: DX11Renderer:  MapNoOverwriteOnDynamicBufferSRV: 1
+2020-03-19T15:06:45.729+03:00| mks| I125: DX11Renderer:  UseNativeConstantBuffers = 1
+2020-03-19T15:06:45.729+03:00| mks| I125: DX11Renderer:  UseBlendLogicOps = 1
+2020-03-19T15:06:45.729+03:00| mks| W115: DX11Renderer: SDK=7, driver=unknown, feature level=11.0
+2020-03-19T15:06:45.729+03:00| mks| W115: DX11Renderer: Max feature level=11.0
+2020-03-19T15:06:45.738+03:00| mks| I125: Started Shim3D
+2020-03-19T15:06:45.738+03:00| mks| I125: MKS-RenderMain: Started DX11Renderer
+2020-03-19T15:06:45.738+03:00| mks| I125: MKS-RenderMain: Found Full Renderer: DX11Renderer
+2020-03-19T15:06:45.738+03:00| mks| I125: MKS-RenderMain: MinimalCaps: maxTextureSize=16384
+2020-03-19T15:06:45.738+03:00| mks| I125: KHBKL: Unable to parse keystring at: ''
+2020-03-19T15:06:45.738+03:00| mks| I125: MKSRemoteMgr: Set default display name: MS-DOS 8.0 Rus
+2020-03-19T15:06:45.738+03:00| mks| I125: MKSRemoteMgr: Loading VNC Configuration from VM config file
+2020-03-19T15:06:45.743+03:00| vmx| I125: VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 20000 us
+2020-03-19T15:06:45.743+03:00| vmx| I125: VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 20000 ticks, dontClusterSize is 128
+2020-03-19T15:06:45.743+03:00| vmx| I125: Chipset version: 0x13
+2020-03-19T15:06:45.745+03:00| vmx| I125: SOUNDLIB: Creating the Wave sound backend.
+2020-03-19T15:06:45.745+03:00| vmx| I125: MigrateBusMemPrealloc: BusMem preallocation begins.
+2020-03-19T15:06:45.745+03:00| vmx| I125: MigrateBusMemPrealloc: BusMem preallocation completes.
+2020-03-19T15:06:45.745+03:00| vthread-30024| I125: VTHREAD 30024 "vthread-30024"
+2020-03-19T15:06:45.745+03:00| vmx| A100: ConfigDB: Setting ide0:1.redo = ""
+2020-03-19T15:06:45.745+03:00| vmx| I125: DISK: OPEN ide0:1 'G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus-0.vmdk' persistent R[]
+2020-03-19T15:06:45.745+03:00| worker-32980| A100: ConfigDB: Setting ide0:0.redo = ""
+2020-03-19T15:06:45.745+03:00| worker-32980| I125: DISK: OPEN ide0:0 'G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmdk' persistent R[]
+2020-03-19T15:06:45.749+03:00| vmx| I125: FILE: FileLockScanDirectory discarding M29819.lck from G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus-0.vmdk.lck': invalid executionID 28968-132290931385841281(vmware-vmx.exe).
+2020-03-19T15:06:45.749+03:00| worker-32980| I125: FILE: FileLockScanDirectory discarding M12817.lck from G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmdk.lck': invalid executionID 28968-132290931385841281(vmware-vmx.exe).
+2020-03-19T15:06:45.758+03:00| worker-32980| I125: DISKLIB-DSCPTR: Opened [0]: "MS-DOS 8.0 Rus.vmdk" (0xa)
+2020-03-19T15:06:45.758+03:00| worker-32980| I125: DISKLIB-LINK  : Opened 'G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmdk' (0xa): monolithicSparse, 208896 sectors / 102 MB.
+2020-03-19T15:06:45.758+03:00| worker-32980| I125: DISKLIB-LIB   : Opened "G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmdk" (flags 0xa, type monolithicSparse).
+2020-03-19T15:06:45.758+03:00| worker-32980| I125: DISKLIB-LIB_MISC   : DiskLib_GetStorageBlockSizes: Failed to get storage block sizes, The virtual disk requires a feature not supported by this program.
+2020-03-19T15:06:45.758+03:00| worker-32980| I125: DiskGetGeometry: Reading of disk partition table
+2020-03-19T15:06:45.758+03:00| worker-32980| I125: DISK: Disk 'G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmdk' has UUID '60 00 c2 9c c5 20 65 47-dc 60 36 d6 be cc 68 68'
+2020-03-19T15:06:45.758+03:00| worker-32980| I125: DISK: OPEN 'G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmdk' Geo (207/16/63) BIOS Geo (828/4/63)
+2020-03-19T15:06:45.768+03:00| vmx| I125: W32Util_DismountVolumes: Locking and dismounting volumes backed by a particular disk area (offset 0 size 7807696896) on PhysicalDrive2...
+2020-03-19T15:06:45.768+03:00| vmx| I125: W32Util_DismountVolumes: Successfully locked volume \\?\Volume{7b0e7c74-2cf5-11e8-84af-3863bbba8da0} on PhysicalDrive2.
+2020-03-19T15:06:45.768+03:00| worker-32980| I125: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 5400
+2020-03-19T15:06:45.779+03:00| vmx| I125: W32Util_DismountVolumes: Successfully dismounted volume \\?\Volume{7b0e7c74-2cf5-11e8-84af-3863bbba8da0} on PhysicalDrive2.
+2020-03-19T15:06:55.059+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to issue ioctl 508040: The request is not supported (50).
+2020-03-19T15:06:55.059+03:00| vmx| I125: OBJLIB-FILEBE : FileBEIoctl: ioctl operation failed on '\\.\PhysicalDrive2' : The request is not supported (3276802)
+2020-03-19T15:06:55.059+03:00| vmx| I125: HOSTDISK-WIN32: Facts: Cap=15249408 Phys C/H/S=949/255/63 BIOS C/H/S=949/255/63 Adap=SCSI
+2020-03-19T15:06:55.059+03:00| vmx| I125: DISKLIB-DSCPTR: Opened [0]: "\\.\PhysicalDrive2" 0 partitionUUID \\?\usbstor#disk&ven_kingston&prod_datatraveler_2.0&rev_pmap#1c6f654e5934b031f931cebc&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} (0xa)
+2020-03-19T15:06:55.059+03:00| vmx| I125: DISKLIB-LINK  : Opened 'G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus-0.vmdk' (0xa): fullDevice, 15249408 sectors / 7.3 GB.
+2020-03-19T15:06:55.059+03:00| vmx| I125: DISKLIB-LIB   : Opened "G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus-0.vmdk" (flags 0xa, type fullDevice).
+2020-03-19T15:06:55.059+03:00| vmx| I125: DISKLIB-LIB_MISC   : DiskLib_GetStorageBlockSizes: Failed to get storage block sizes, The virtual disk requires a feature not supported by this program.
+2020-03-19T15:06:55.059+03:00| vmx| I125: DISK: Disk 'G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus-0.vmdk' has UUID '60 00 c2 95 f5 6c 88 4a-fd c0 69 a8 12 a6 5b 50'
+2020-03-19T15:06:55.059+03:00| vmx| I125: DISK: OPEN 'G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus-0.vmdk' Geo (949/255/63) BIOS Geo (949/255/63)
+2020-03-19T15:06:55.059+03:00| vmx| I125: DISK: Opening disks took 9316 ms.
+2020-03-19T15:06:55.064+03:00| vmx| I125: USB: Initializing 'Virtual Hub' backend
+2020-03-19T15:06:55.064+03:00| vmx| I125: USB: Initializing 'Generic' backend
+2020-03-19T15:06:55.064+03:00| vmx| I125: USB: Initializing 'Virtual HID' backend
+2020-03-19T15:06:55.064+03:00| sensorThread| I125: VTHREAD 15260 "sensorThread"
+2020-03-19T15:06:55.064+03:00| vmx| I125: USB: Initializing 'Remote Device' backend
+2020-03-19T15:06:55.064+03:00| vmx| I125: RemoteUSBVMX: Retrieved hostId [1c 1c a7 e1 fc fb b1 74-24 37 a2 41 34 d6 8e d3]
+2020-03-19T15:06:55.064+03:00| vmx| I125: RemoteUSBVMX: Protocol version min:15 current:17
+2020-03-19T15:06:55.064+03:00| vmx| I125: RemoteUSBVMX: no delay setting is TRUE.
+2020-03-19T15:06:55.064+03:00| vmx| I125: USB: Initializing 'Virtual Mass Storage' backend
+2020-03-19T15:06:55.064+03:00| vmx| I125: USB: Initializing 'Virtual RNG' backend
+2020-03-19T15:06:55.064+03:00| vmx| I125: USB: Initializing 'Virtual CCID' backend
+2020-03-19T15:06:55.069+03:00| vmx| I125: USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2020-03-19T15:06:55.069+03:00| vmx| I125: USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2020-03-19T15:06:55.083+03:00| usbCCIDEnumCards| I125: VTHREAD 12584 "usbCCIDEnumCards"
+2020-03-19T15:06:55.083+03:00| usbCCIDEnumCards| I125: USB-CCID: Card enum thread created.
+2020-03-19T15:06:55.083+03:00| vmx| I125: USB: Initializing 'Virtual Bluetooth' backend
+2020-03-19T15:06:55.083+03:00| vmx| I125: USB: Initializing 'Virtual Audio' backend
+2020-03-19T15:06:55.083+03:00| vmx| I125: USB: Initializing 'Virtual Video' backend
+2020-03-19T15:06:55.108+03:00| vmx| I125: USBGW: Skipping disk backing for file (G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmx).
+2020-03-19T15:06:55.108+03:00| vmx| I125: USBGW: Skipping disk backing for file (G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus-0.vmdk).
+2020-03-19T15:06:55.108+03:00| vmx| I125: USBGW: Skipping disk backing for file (G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmdk).
+2020-03-19T15:06:55.108+03:00| vmx| I125: USBGW: Skipping disk backing for file (G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmsd).
+2020-03-19T15:06:55.108+03:00| vmx| I125: USBGW: Skipping disk backing for file (G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.nvram).
+2020-03-19T15:06:55.108+03:00| usbCCIDEnumCards| I125: USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2020-03-19T15:06:55.119+03:00| vmx| A100: ConfigDB: Setting pciBridge4.pciSlotNumber = "-1"
+2020-03-19T15:06:55.119+03:00| vmx| A100: ConfigDB: Setting pciBridge5.pciSlotNumber = "-1"
+2020-03-19T15:06:55.119+03:00| vmx| A100: ConfigDB: Setting pciBridge6.pciSlotNumber = "-1"
+2020-03-19T15:06:55.119+03:00| vmx| A100: ConfigDB: Setting pciBridge7.pciSlotNumber = "-1"
+2020-03-19T15:06:55.119+03:00| vmx| A100: ConfigDB: Setting pciBridge4.pciSlotNumber = "21"
+2020-03-19T15:06:55.119+03:00| vmx| A100: ConfigDB: Setting pciBridge5.pciSlotNumber = "22"
+2020-03-19T15:06:55.119+03:00| vmx| A100: ConfigDB: Setting pciBridge6.pciSlotNumber = "23"
+2020-03-19T15:06:55.119+03:00| vmx| A100: ConfigDB: Setting pciBridge7.pciSlotNumber = "24"
+2020-03-19T15:06:55.208+03:00| vmx| I125: DISKUTIL: ide0:0 : capacity=208896 logical sector size=512
+2020-03-19T15:06:55.208+03:00| vmx| I125: SCSI DEVICE (ide0:0): Computed value of ide0:0.useBounceBuffers: default
+2020-03-19T15:06:55.208+03:00| vmx| I125: DISKUTIL: ide0:0 : capacity=208896 logical sector size=512
+2020-03-19T15:06:55.208+03:00| vmx| I125: DISKUTIL: ide0:0 : geometry=828/4/63
+2020-03-19T15:06:55.208+03:00| vmx| I125: DISKUTIL: ide0:1 : capacity=15249408 logical sector size=512
+2020-03-19T15:06:55.208+03:00| vmx| I125: SCSI DEVICE (ide0:1): Computed value of ide0:1.useBounceBuffers: default
+2020-03-19T15:06:55.208+03:00| vmx| I125: DISKUTIL: ide0:1 : capacity=15249408 logical sector size=512
+2020-03-19T15:06:55.208+03:00| vmx| I125: DISKUTIL: ide0:1 : geometry=949/255/63
+2020-03-19T15:06:55.208+03:00| vmx| I125: SCSI DEVICE (ide1:0): Computed value of ide1:0.useBounceBuffers: default
+2020-03-19T15:06:55.208+03:00| vmx| I125: DISKUTIL: ide1:0 : capacity=0 logical sector size=2048
+2020-03-19T15:06:55.208+03:00| vmx| I125: DISKUTIL: ide1:0 : geometry=0/0/0
+2020-03-19T15:06:55.208+03:00| vmx| I125: SCSI0: UNTAGGED commands will be converted to ORDER tags.
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA-GFB: Config settings: autodetect=1, numDisplays=1, maxWidth=2560, maxHeight=1600
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA-GFB: Desired maximum display topology: wh(6688, 5016)
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA-GFB: Autodetected target gfbSize = 268435456
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA-GFB: Using Initial       gfbSize = 16777216
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA-GFB: Truncated maximum resolution for register modes to VRAM size: VRAM=16777216 bytes, max wh(2360, 1773)
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA-GFB: Max wh(2360, 1773), number of displays: 10
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA-GFB: Allocated gfbSize=16777216
+2020-03-19T15:06:55.208+03:00| vmx| A100: ConfigDB: Setting vmotion.checkpointFBSize = "16777216"
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGACaps: Device       caps : 0x001fc3e2
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGACaps: Device       caps2: 0x00000000
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA: FIFO capabilities 0x0000007f
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA3dClamp: Renderer Provides      BC6Level:     0 (    0,     0)
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA3dClamp: Renderer Provides      BC7Level:     0 (    0,     0)
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA3dClamp: Renderer Provides BaseCapsLevel:     7 (    7,     7)
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA3dClamp: Renderer Provides    ClampLevel:     0 (    0,     8)
+2020-03-19T15:06:55.208+03:00| vmx| I125: SVGA3dCaps: host, at power on
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[  0]: 0x00000001 (3D)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[  1]: 0x00000008 (MAX_LIGHTS)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[  2]: 0x00000008 (MAX_TEXTURES)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[  3]: 0x00000008 (MAX_CLIP_PLANES)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[  4]: 0x00000007 (VERTEX_SHADER_VERSION)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[  5]: 0x00000001 (VERTEX_SHADER)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[  6]: 0x0000000d (FRAGMENT_SHADER_VERSION)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[  7]: 0x00000001 (FRAGMENT_SHADER)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[  8]: 0x00000008 (MAX_RENDER_TARGETS)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[  9]: 0x00000001 (S23E8_TEXTURES)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 10]: 0x00000001 (S10E5_TEXTURES)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 11]: 0x00000004 (MAX_FIXED_VERTEXBLEND)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 12]: 0x00000001 (D16_BUFFER_FORMAT)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 13]: 0x00000001 (D24S8_BUFFER_FORMAT)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 14]: 0x00000001 (D24X8_BUFFER_FORMAT)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 15]: 0x00000001 (QUERY_TYPES)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 16]: 0x00000001 (TEXTURE_GRADIENT_SAMPLING)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 17]:   1.000000 (MAX_POINT_SIZE)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 18]: 0x00000014 (MAX_SHADER_TEXTURES)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 19]: 0x00004000 (MAX_TEXTURE_WIDTH)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 20]: 0x00004000 (MAX_TEXTURE_HEIGHT)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 21]: 0x00000800 (MAX_VOLUME_EXTENT)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 22]: 0x00004000 (MAX_TEXTURE_REPEAT)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 23]: 0x00004000 (MAX_TEXTURE_ASPECT_RATIO)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 24]: 0x00000010 (MAX_TEXTURE_ANISOTROPY)
+2020-03-19T15:06:55.208+03:00| vmx| I125:   cap[ 25]: 0x001fffff (MAX_PRIMITIVE_COUNT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 26]: 0x000fffff (MAX_VERTEX_INDEX)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 27]: 0x0000ffff (MAX_VERTEX_SHADER_INSTRUCTIONS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 28]: 0x0000ffff (MAX_FRAGMENT_SHADER_INSTRUCTIONS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 29]: 0x00000020 (MAX_VERTEX_SHADER_TEMPS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 30]: 0x00000020 (MAX_FRAGMENT_SHADER_TEMPS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 31]: 0x03ffffff (TEXTURE_OPS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 32]: 0x0018ec1f (SURFACEFMT_X8R8G8B8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 33]: 0x0018e11f (SURFACEFMT_A8R8G8B8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 34]: 0x0008601f (SURFACEFMT_A2R10G10B10)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 35]: 0x0008601f (SURFACEFMT_X1R5G5B5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 36]: 0x0008611f (SURFACEFMT_A1R5G5B5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 37]: 0x0000611f (SURFACEFMT_A4R4G4B4)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 38]: 0x0018ec1f (SURFACEFMT_R5G6B5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 39]: 0x0000601f (SURFACEFMT_LUMINANCE16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 40]: 0x00006007 (SURFACEFMT_LUMINANCE8_ALPHA8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 41]: 0x0000601f (SURFACEFMT_ALPHA8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 42]: 0x0000601f (SURFACEFMT_LUMINANCE8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 43]: 0x000040c5 (SURFACEFMT_Z_D16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 44]: 0x000040c5 (SURFACEFMT_Z_D24S8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 45]: 0x000040c5 (SURFACEFMT_Z_D24X8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 46]: 0x0000e005 (SURFACEFMT_DXT1)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 47]: 0x0000e005 (SURFACEFMT_DXT2)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 48]: 0x0000e005 (SURFACEFMT_DXT3)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 49]: 0x0000e005 (SURFACEFMT_DXT4)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 50]: 0x0000e005 (SURFACEFMT_DXT5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 51]: 0x00014005 (SURFACEFMT_BUMPX8L8V8U8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 52]: 0x00014007 (SURFACEFMT_A2W10V10U10)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 53]: 0x00014007 (SURFACEFMT_BUMPU8V8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 54]: 0x00014005 (SURFACEFMT_Q8W8V8U8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 55]: 0x00014001 (SURFACEFMT_CxV8U8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 56]: 0x0080601f (SURFACEFMT_R_S10E5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 57]: 0x0080601f (SURFACEFMT_R_S23E8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 58]: 0x0080601f (SURFACEFMT_RG_S10E5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 59]: 0x0080601f (SURFACEFMT_RG_S23E8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 60]: 0x0080601f (SURFACEFMT_ARGB_S10E5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 61]: 0x0080601f (SURFACEFMT_ARGB_S23E8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 62]: 0x00000000 (MISSING62)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 63]: 0x00000004 (MAX_VERTEX_SHADER_TEXTURES)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 64]: 0x00000008 (MAX_SIMULTANEOUS_RENDER_TARGETS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 65]: 0x00014007 (SURFACEFMT_V16U16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 66]: 0x0000601f (SURFACEFMT_G16R16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 67]: 0x0000601f (SURFACEFMT_A16B16G16R16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 68]: 0x01246000 (SURFACEFMT_UYVY)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 69]: 0x01246000 (SURFACEFMT_YUY2)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 70]: 0x00000000 (DEAD4)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 71]: 0x00000000 (DEAD5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 72]: 0x00000000 (DEAD7)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 73]: 0x00000000 (DEAD6)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 74]: 0x00000001 (AUTOGENMIPMAPS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 75]: 0x01246000 (SURFACEFMT_NV12)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 76]: 0x00000000 (DEAD10)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 77]: 0x00000100 (MAX_CONTEXT_IDS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 78]: 0x00008000 (MAX_SURFACE_IDS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 79]: 0x000040c5 (SURFACEFMT_Z_DF16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 80]: 0x000040c5 (SURFACEFMT_Z_DF24)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 81]: 0x000040c5 (SURFACEFMT_Z_D24S8_INT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 82]: 0x00006005 (SURFACEFMT_ATI1)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 83]: 0x00006005 (SURFACEFMT_ATI2)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 84]: 0x00000000 (DEAD1)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 85]: 0x00000000 (DEAD8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 86]: 0x00000000 (DEAD9)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 87]: 0x00000000 (LINE_AA)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 88]: 0x00000000 (LINE_STIPPLE)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 89]:   1.000000 (MAX_LINE_WIDTH)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 90]:   0.000000 (MAX_AA_LINE_WIDTH)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 91]: 0x01246000 (SURFACEFMT_YV12)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 92]: 0x00000000 (DEAD3)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 93]: 0x00000000 (TS_COLOR_KEY)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 94]: 0x00000000 (DEAD2)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 95]: 0x00000000 (DXCONTEXT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 96]: 0x00000200 (DEAD11)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 97]: 0x00000000 (DX_MAX_VERTEXBUFFERS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 98]: 0x00000000 (DX_MAX_CONSTANT_BUFFERS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[ 99]: 0x00000000 (DX_PROVOKING_VERTEX)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[100]: 0x00000000 (DXFMT_X8R8G8B8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[101]: 0x00000000 (DXFMT_A8R8G8B8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[102]: 0x00000000 (DXFMT_R5G6B5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[103]: 0x00000000 (DXFMT_X1R5G5B5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[104]: 0x00000000 (DXFMT_A1R5G5B5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[105]: 0x00000000 (DXFMT_A4R4G4B4)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[106]: 0x00000000 (DXFMT_Z_D32)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[107]: 0x00000000 (DXFMT_Z_D16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[108]: 0x00000000 (DXFMT_Z_D24S8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[109]: 0x00000000 (DXFMT_Z_D15S1)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[110]: 0x00000000 (DXFMT_LUMINANCE8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[111]: 0x00000000 (DXFMT_LUMINANCE4_ALPHA4)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[112]: 0x00000000 (DXFMT_LUMINANCE16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[113]: 0x00000000 (DXFMT_LUMINANCE8_ALPHA8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[114]: 0x00000000 (DXFMT_DXT1)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[115]: 0x00000000 (DXFMT_DXT2)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[116]: 0x00000000 (DXFMT_DXT3)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[117]: 0x00000000 (DXFMT_DXT4)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[118]: 0x00000000 (DXFMT_DXT5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[119]: 0x00000000 (DXFMT_BUMPU8V8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[120]: 0x00000000 (DXFMT_BUMPL6V5U5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[121]: 0x00000000 (DXFMT_BUMPX8L8V8U8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[122]: 0x00000000 (DXFMT_FORMAT_DEAD1)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[123]: 0x00000000 (DXFMT_ARGB_S10E5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[124]: 0x00000000 (DXFMT_ARGB_S23E8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[125]: 0x00000000 (DXFMT_A2R10G10B10)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[126]: 0x00000000 (DXFMT_V8U8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[127]: 0x00000000 (DXFMT_Q8W8V8U8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[128]: 0x00000000 (DXFMT_CxV8U8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[129]: 0x00000000 (DXFMT_X8L8V8U8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[130]: 0x00000000 (DXFMT_A2W10V10U10)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[131]: 0x00000000 (DXFMT_ALPHA8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[132]: 0x00000000 (DXFMT_R_S10E5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[133]: 0x00000000 (DXFMT_R_S23E8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[134]: 0x00000000 (DXFMT_RG_S10E5)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[135]: 0x00000000 (DXFMT_RG_S23E8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[136]: 0x00000000 (DXFMT_BUFFER)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[137]: 0x00000000 (DXFMT_Z_D24X8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[138]: 0x00000000 (DXFMT_V16U16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[139]: 0x00000000 (DXFMT_G16R16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[140]: 0x00000000 (DXFMT_A16B16G16R16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[141]: 0x00000000 (DXFMT_UYVY)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[142]: 0x00000000 (DXFMT_YUY2)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[143]: 0x00000000 (DXFMT_NV12)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[144]: 0x00000000 (DEVCAP_UNKNOWN)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[145]: 0x00000000 (DXFMT_R32G32B32A32_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[146]: 0x00000000 (DXFMT_R32G32B32A32_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[147]: 0x00000000 (DXFMT_R32G32B32A32_SINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[148]: 0x00000000 (DXFMT_R32G32B32_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[149]: 0x00000000 (DXFMT_R32G32B32_FLOAT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[150]: 0x00000000 (DXFMT_R32G32B32_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[151]: 0x00000000 (DXFMT_R32G32B32_SINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[152]: 0x00000000 (DXFMT_R16G16B16A16_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[153]: 0x00000000 (DXFMT_R16G16B16A16_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[154]: 0x00000000 (DXFMT_R16G16B16A16_SNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[155]: 0x00000000 (DXFMT_R16G16B16A16_SINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[156]: 0x00000000 (DXFMT_R32G32_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[157]: 0x00000000 (DXFMT_R32G32_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[158]: 0x00000000 (DXFMT_R32G32_SINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[159]: 0x00000000 (DXFMT_R32G8X24_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[160]: 0x00000000 (DXFMT_D32_FLOAT_S8X24_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[161]: 0x00000000 (DXFMT_R32_FLOAT_X8X24)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[162]: 0x00000000 (DXFMT_X32_G8X24_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[163]: 0x00000000 (DXFMT_R10G10B10A2_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[164]: 0x00000000 (DXFMT_R10G10B10A2_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[165]: 0x00000000 (DXFMT_R11G11B10_FLOAT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[166]: 0x00000000 (DXFMT_R8G8B8A8_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[167]: 0x00000000 (DXFMT_R8G8B8A8_UNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[168]: 0x00000000 (DXFMT_R8G8B8A8_UNORM_SRGB)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[169]: 0x00000000 (DXFMT_R8G8B8A8_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[170]: 0x00000000 (DXFMT_R8G8B8A8_SINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[171]: 0x00000000 (DXFMT_R16G16_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[172]: 0x00000000 (DXFMT_R16G16_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[173]: 0x00000000 (DXFMT_R16G16_SINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[174]: 0x00000000 (DXFMT_R32_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[175]: 0x00000000 (DXFMT_D32_FLOAT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[176]: 0x00000000 (DXFMT_R32_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[177]: 0x00000000 (DXFMT_R32_SINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[178]: 0x00000000 (DXFMT_R24G8_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[179]: 0x00000000 (DXFMT_D24_UNORM_S8_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[180]: 0x00000000 (DXFMT_R24_UNORM_X8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[181]: 0x00000000 (DXFMT_X24_G8_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[182]: 0x00000000 (DXFMT_R8G8_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[183]: 0x00000000 (DXFMT_R8G8_UNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[184]: 0x00000000 (DXFMT_R8G8_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[185]: 0x00000000 (DXFMT_R8G8_SINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[186]: 0x00000000 (DXFMT_R16_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[187]: 0x00000000 (DXFMT_R16_UNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[188]: 0x00000000 (DXFMT_R16_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[189]: 0x00000000 (DXFMT_R16_SNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[190]: 0x00000000 (DXFMT_R16_SINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[191]: 0x00000000 (DXFMT_R8_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[192]: 0x00000000 (DXFMT_R8_UNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[193]: 0x00000000 (DXFMT_R8_UINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[194]: 0x00000000 (DXFMT_R8_SNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[195]: 0x00000000 (DXFMT_R8_SINT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[196]: 0x00000000 (DXFMT_P8)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[197]: 0x00000000 (DXFMT_R9G9B9E5_SHAREDEXP)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[198]: 0x00000000 (DXFMT_R8G8_B8G8_UNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[199]: 0x00000000 (DXFMT_G8R8_G8B8_UNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[200]: 0x00000000 (DXFMT_BC1_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[201]: 0x00000000 (DXFMT_BC1_UNORM_SRGB)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[202]: 0x00000000 (DXFMT_BC2_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[203]: 0x00000000 (DXFMT_BC2_UNORM_SRGB)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[204]: 0x00000000 (DXFMT_BC3_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[205]: 0x00000000 (DXFMT_BC3_UNORM_SRGB)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[206]: 0x00000000 (DXFMT_BC4_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[207]: 0x00000000 (DXFMT_ATI1)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[208]: 0x00000000 (DXFMT_BC4_SNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[209]: 0x00000000 (DXFMT_BC5_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[210]: 0x00000000 (DXFMT_ATI2)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[211]: 0x00000000 (DXFMT_BC5_SNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[212]: 0x00000000 (DXFMT_R10G10B10_XR_BIAS_A2_UNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[213]: 0x00000000 (DXFMT_B8G8R8A8_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[214]: 0x00000000 (DXFMT_B8G8R8A8_UNORM_SRGB)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[215]: 0x00000000 (DXFMT_B8G8R8X8_TYPELESS)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[216]: 0x00000000 (DXFMT_B8G8R8X8_UNORM_SRGB)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[217]: 0x00000000 (DXFMT_Z_DF16)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[218]: 0x00000000 (DXFMT_Z_DF24)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[219]: 0x00000000 (DXFMT_Z_D24S8_INT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[220]: 0x00000000 (DXFMT_YV12)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[221]: 0x00000000 (DXFMT_R32G32B32A32_FLOAT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[222]: 0x00000000 (DXFMT_R16G16B16A16_FLOAT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[223]: 0x00000000 (DXFMT_R16G16B16A16_UNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[224]: 0x00000000 (DXFMT_R32G32_FLOAT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[225]: 0x00000000 (DXFMT_R10G10B10A2_UNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[226]: 0x00000000 (DXFMT_R8G8B8A8_SNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[227]: 0x00000000 (DXFMT_R16G16_FLOAT)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[228]: 0x00000000 (DXFMT_R16G16_UNORM)
+2020-03-19T15:06:55.218+03:00| vmx| I125:   cap[229]: 0x00000000 (DXFMT_R16G16_SNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[230]: 0x00000000 (DXFMT_R32_FLOAT)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[231]: 0x00000000 (DXFMT_R8G8_SNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[232]: 0x00000000 (DXFMT_R16_FLOAT)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[233]: 0x00000000 (DXFMT_D16_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[234]: 0x00000000 (DXFMT_A8_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[235]: 0x00000000 (DXFMT_BC1_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[236]: 0x00000000 (DXFMT_BC2_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[237]: 0x00000000 (DXFMT_BC3_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[238]: 0x00000000 (DXFMT_B5G6R5_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[239]: 0x00000000 (DXFMT_B5G5R5A1_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[240]: 0x00000000 (DXFMT_B8G8R8A8_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[241]: 0x00000000 (DXFMT_B8G8R8X8_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[242]: 0x00000000 (DXFMT_BC4_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[243]: 0x00000000 (DXFMT_BC5_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[244]: 0x00000000 (SM41)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[245]: 0x00000000 (MULTISAMPLE_2X)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[246]: 0x00000000 (MULTISAMPLE_4X)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[247]: 0x00000000 (MS_FULL_QUALITY)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[248]: 0x00000001 (LOGICOPS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[249]: 0x00000000 (LOGIC_BLENDOPS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[250]: 0x00000000 (DXFMT_B4G4R4A4_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[251]: 0x00000000 (DXFMT_BC6H_TYPELESS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[252]: 0x00000000 (DXFMT_BC6H_UF16)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[253]: 0x00000000 (DXFMT_BC6H_SF16)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[254]: 0x00000000 (DXFMT_BC7_TYPELESS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[255]: 0x00000000 (DXFMT_BC7_UNORM)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[256]: 0x00000000 (DXFMT_BC7_UNORM_SRGB)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[257]: 0x00000000 (DXFMT_AYUV)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[258]: 0x00000000 (SM5)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[259]: 0x00000000 (MULTISAMPLE_8X)
+2020-03-19T15:06:55.223+03:00| vmx| I125: SVGA3dClamp:     Host Provides      BC6Level:     0 (    0,     0)
+2020-03-19T15:06:55.223+03:00| vmx| I125: SVGA3dClamp:     Host Provides      BC7Level:     0 (    0,     0)
+2020-03-19T15:06:55.223+03:00| vmx| I125: SVGA3dClamp:     Host Provides BaseCapsLevel:     3 (    3,     7)
+2020-03-19T15:06:55.223+03:00| vmx| I125: SVGA3dClamp:     Host Provides    ClampLevel:     0 (    0,     8)
+2020-03-19T15:06:55.223+03:00| vmx| I125: SVGA3dCaps: guest, compatibility level: 8
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[  0]: 0x00000001 (3D)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[  1]: 0x00000008 (MAX_LIGHTS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[  2]: 0x00000008 (MAX_TEXTURES)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[  3]: 0x00000008 (MAX_CLIP_PLANES)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[  4]: 0x00000007 (VERTEX_SHADER_VERSION)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[  5]: 0x00000001 (VERTEX_SHADER)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[  6]: 0x0000000d (FRAGMENT_SHADER_VERSION)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[  7]: 0x00000001 (FRAGMENT_SHADER)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[  8]: 0x00000008 (MAX_RENDER_TARGETS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[  9]: 0x00000001 (S23E8_TEXTURES)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 10]: 0x00000001 (S10E5_TEXTURES)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 11]: 0x00000004 (MAX_FIXED_VERTEXBLEND)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 12]: 0x00000001 (D16_BUFFER_FORMAT)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 13]: 0x00000001 (D24S8_BUFFER_FORMAT)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 14]: 0x00000001 (D24X8_BUFFER_FORMAT)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 15]: 0x00000001 (QUERY_TYPES)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 16]: 0x00000001 (TEXTURE_GRADIENT_SAMPLING)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 17]:   1.000000 (MAX_POINT_SIZE)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 18]: 0x00000014 (MAX_SHADER_TEXTURES)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 19]: 0x00004000 (MAX_TEXTURE_WIDTH)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 20]: 0x00004000 (MAX_TEXTURE_HEIGHT)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 21]: 0x00000800 (MAX_VOLUME_EXTENT)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 22]: 0x00004000 (MAX_TEXTURE_REPEAT)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 23]: 0x00004000 (MAX_TEXTURE_ASPECT_RATIO)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 24]: 0x00000010 (MAX_TEXTURE_ANISOTROPY)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 25]: 0x001fffff (MAX_PRIMITIVE_COUNT)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 26]: 0x000fffff (MAX_VERTEX_INDEX)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 27]: 0x0000ffff (MAX_VERTEX_SHADER_INSTRUCTIONS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 28]: 0x0000ffff (MAX_FRAGMENT_SHADER_INSTRUCTIONS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 29]: 0x00000020 (MAX_VERTEX_SHADER_TEMPS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 30]: 0x00000020 (MAX_FRAGMENT_SHADER_TEMPS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 31]: 0x03ffffff (TEXTURE_OPS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 32]: 0x0018ec1f (SURFACEFMT_X8R8G8B8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 33]: 0x0018e11f (SURFACEFMT_A8R8G8B8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 34]: 0x0008601f (SURFACEFMT_A2R10G10B10)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 35]: 0x0008601f (SURFACEFMT_X1R5G5B5)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 36]: 0x0008611f (SURFACEFMT_A1R5G5B5)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 37]: 0x0000611f (SURFACEFMT_A4R4G4B4)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 38]: 0x0018ec1f (SURFACEFMT_R5G6B5)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 39]: 0x0000601f (SURFACEFMT_LUMINANCE16)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 40]: 0x00006007 (SURFACEFMT_LUMINANCE8_ALPHA8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 41]: 0x0000601f (SURFACEFMT_ALPHA8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 42]: 0x0000601f (SURFACEFMT_LUMINANCE8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 43]: 0x000040c5 (SURFACEFMT_Z_D16)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 44]: 0x000040c5 (SURFACEFMT_Z_D24S8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 45]: 0x000040c5 (SURFACEFMT_Z_D24X8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 46]: 0x0000e005 (SURFACEFMT_DXT1)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 47]: 0x0000e005 (SURFACEFMT_DXT2)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 48]: 0x0000e005 (SURFACEFMT_DXT3)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 49]: 0x0000e005 (SURFACEFMT_DXT4)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 50]: 0x0000e005 (SURFACEFMT_DXT5)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 51]: 0x00014005 (SURFACEFMT_BUMPX8L8V8U8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 52]: 0x00014007 (SURFACEFMT_A2W10V10U10)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 53]: 0x00014007 (SURFACEFMT_BUMPU8V8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 54]: 0x00014005 (SURFACEFMT_Q8W8V8U8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 55]: 0x00014001 (SURFACEFMT_CxV8U8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 56]: 0x0080601f (SURFACEFMT_R_S10E5)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 57]: 0x0080601f (SURFACEFMT_R_S23E8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 58]: 0x0080601f (SURFACEFMT_RG_S10E5)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 59]: 0x0080601f (SURFACEFMT_RG_S23E8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 60]: 0x0080601f (SURFACEFMT_ARGB_S10E5)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 61]: 0x0080601f (SURFACEFMT_ARGB_S23E8)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 62]: 0x00000000 (MISSING62)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 63]: 0x00000004 (MAX_VERTEX_SHADER_TEXTURES)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 64]: 0x00000008 (MAX_SIMULTANEOUS_RENDER_TARGETS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 65]: 0x00014007 (SURFACEFMT_V16U16)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 66]: 0x0000601f (SURFACEFMT_G16R16)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 67]: 0x0000601f (SURFACEFMT_A16B16G16R16)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 68]: 0x01246000 (SURFACEFMT_UYVY)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 69]: 0x01246000 (SURFACEFMT_YUY2)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 70]: 0x00000000 (DEAD4)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 71]: 0x00000000 (DEAD5)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 72]: 0x00000000 (DEAD7)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 73]: 0x00000000 (DEAD6)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 74]: 0x00000001 (AUTOGENMIPMAPS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 75]: 0x01246000 (SURFACEFMT_NV12)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 76]: 0x00000000 (DEAD10)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 77]: 0x00000100 (MAX_CONTEXT_IDS)
+2020-03-19T15:06:55.223+03:00| vmx| I125:   cap[ 78]: 0x00008000 (MAX_SURFACE_IDS)
+2020-03-19T15:06:55.223+03:00| vmx| I125: SVGA3dClamp:    Guest Requires      BC6Level:     0 (    0,     0)
+2020-03-19T15:06:55.223+03:00| vmx| I125: SVGA3dClamp:    Guest Requires      BC7Level:     0 (    0,     0)
+2020-03-19T15:06:55.223+03:00| vmx| I125: SVGA3dClamp:    Guest Requires BaseCapsLevel:     7 (    1,     7)
+2020-03-19T15:06:55.223+03:00| vmx| I125: SVGA3dClamp:    Guest Requires    ClampLevel:     8 (    0,     8)
+2020-03-19T15:06:55.228+03:00| svga| I125: VTHREAD 14512 "svga"
+2020-03-19T15:06:55.228+03:00| vmx| I125: USB: Initializing 'UHCI' host controller
+2020-03-19T15:06:55.228+03:00| vmx| A100: ConfigDB: Setting usb:1.speed = "2"
+2020-03-19T15:06:55.228+03:00| vmx| I125: Ethernet0 MAC Address: 00:0c:29:84:f7:46
+2020-03-19T15:06:55.228+03:00| vmx| A100: ConfigDB: Setting vmci0.id = "-2105215162"
+2020-03-19T15:06:55.241+03:00| vmx| I125: WORKER: Creating new group with numThreads=1 (25)
+2020-03-19T15:06:55.241+03:00| vmx| I125: DISKUTIL: (null) : max toolsVersion = 0, type = 0
+2020-03-19T15:06:55.241+03:00| vmx| I125: DISKUTIL: Offline toolsVersion = 0, type = 0
+2020-03-19T15:06:55.241+03:00| vmx| I125: TOOLS setting legacy tools version to '0' type 0, manifest status is 9
+2020-03-19T15:06:55.241+03:00| vmx| I125: ToolsISO: open of G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2020-03-19T15:06:55.241+03:00| vmx| I125: ToolsISO: Unable to read signature file 'G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2020-03-19T15:06:55.249+03:00| vmx| I125: ToolsISO: Guest 'dos' not found in Tools image map file 'G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt'
+2020-03-19T15:06:55.249+03:00| vmx| I125: ToolsISO: Updated cached value for imageName to '(null)'.
+2020-03-19T15:06:55.249+03:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2020-03-19T15:06:55.249+03:00| vmx| I125: TOOLS updated cached value for isoImageExists to 0.
+2020-03-19T15:06:55.249+03:00| vmx| I125: VMXVmdb_SetToolsVersionStatus: status value set to 'notAvailable', 'noTools', install impossible
+2020-03-19T15:06:55.249+03:00| vmx| I125: ToolsISO: open of G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2020-03-19T15:06:55.249+03:00| vmx| I125: ToolsISO: Unable to read signature file 'G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2020-03-19T15:06:55.249+03:00| vmx| I125: ToolsISO: Guest 'dos' not found in Tools image map file 'G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt'
+2020-03-19T15:06:55.249+03:00| vmx| I125: ToolsISO: Updated cached value for imageName to '(null)'.
+2020-03-19T15:06:55.249+03:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2020-03-19T15:06:55.249+03:00| vmx| I125: TOOLS updated cached value for isoImageExists to 0.
+2020-03-19T15:06:55.249+03:00| vmx| I125: VMXVmdb_SetToolsVersionStatus: status value set to 'notAvailable', 'noTools', install impossible
+2020-03-19T15:06:55.249+03:00| vmx| I125: Tools: sending 'OS_PowerOn' (state = 3) state change request
+2020-03-19T15:06:55.249+03:00| vmx| I125: Tools: Delaying state change request to state 3.
+2020-03-19T15:06:55.249+03:00| vmx| I125: TOOLS INSTALL initializing state to IDLE on power on.
+2020-03-19T15:06:55.249+03:00| vmx| I125: HgfsServerManagerVigorInit: Initialize: dev api
+2020-03-19T15:06:55.249+03:00| vmx| I125: HgfsServer_InitState: initialized notification inactive.
+2020-03-19T15:06:55.249+03:00| vmx| I125: HgfsChannelActivateChannel: HGFS [backdoor] channel ACTIVATED.
+2020-03-19T15:06:55.249+03:00| vmx| I125: HgfsChannelActivateChannel: HGFS [vmci] channel ACTIVATED.
+2020-03-19T15:06:55.254+03:00| vmx| I125: DEPLOYPKG: No pending deploy package name set
+2020-03-19T15:06:55.254+03:00| vmx| I125: DEPLOYPKG: ToolsDeployPkgPublishState: state=0, code=0, message=(null)
+2020-03-19T15:06:55.254+03:00| vmx| I125: MonPmc: ctrBase 0x4c1 selBase 0x186/1 PGC 1/1 SMM 1 drain 0 AMD 0
+2020-03-19T15:06:55.254+03:00| vmx| I125+ MonPmc:   gen counters num: 4 width 48 write width 48
+2020-03-19T15:06:55.254+03:00| vmx| I125+ MonPmc:   fix counters num: 3 width 48; version 3
+2020-03-19T15:06:55.254+03:00| vmx| I125+ MonPmc:   unavailable counters: 0
+2020-03-19T15:06:55.254+03:00| vmx| I125: CPUID Maximum Physical Address Bits supported across all CPUs: 39
+2020-03-19T15:06:55.258+03:00| vmx| A100: ConfigDB: Setting monitor.phys_bits_used = "40"
+2020-03-19T15:06:55.258+03:00| vmx| I125: Full guest CPUID with differences from hostCPUID highlighted.
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest vendor: GenuineIntel
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest family: 0x6 model: 0x3c stepping: 0x3
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest codename: Haswell DT
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest name: Intel(R) Core(TM) i7-4710MQ CPU @ 2.50GHz
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID       level eaxIn, ecxIn:        eax        ebx        ecx        edx
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 00000000,  0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 00000001,  0: 0x000306c3 0x00010800 0x82d82203 0x0f8bfbff
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 00000001,  0: 0x000306c3 0x00100800 0x7fdafbbf 0xbfebfbff
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 00000002,  0: 0x76036301 0x00f0b5ff 0x00000000 0x00c10000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 00000004,  0: 0x00000121 0x01c0003f 0x0000003f 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 00000004,  0: 0x1c004121 0x01c0003f 0x0000003f 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 00000004,  1: 0x00000122 0x01c0003f 0x0000003f 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 00000004,  1: 0x1c004122 0x01c0003f 0x0000003f 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 00000004,  2: 0x00000143 0x01c0003f 0x000001ff 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 00000004,  2: 0x1c004143 0x01c0003f 0x000001ff 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 00000004,  3: 0x00000163 0x02c0003f 0x00001fff 0x00000006
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 00000004,  3: 0x1c03c163 0x02c0003f 0x00001fff 0x00000006
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 00000006,  0: 0x00000004 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 00000006,  0: 0x00000077 0x00000002 0x00000009 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 00000007,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 00000007,  0: 0x00000000 0x000027ab 0x00000000 0x9c000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 0000000a,  0: 0x07300401 0x0000007f 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 0000000a,  0: 0x07300403 0x00000000 0x00000000 0x00000603
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 0000000d,  0: 0x00000007 0x00000340 0x00000340 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  1: 0x00000000 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 0000000d,  1: 0x00000001 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  2: 0x00000000 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 0000000d,  2: 0x00000100 0x00000240 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 40000000,  0: 0x40000010 0x61774d56 0x4d566572 0x65726177
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 40000010,  0: 0x00260f1e 0x000101d0 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 80000000,  0: 0x80000008 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 80000001,  0: 0x00000000 0x00000000 0x00000001 0x28100800
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 80000001,  0: 0x00000000 0x00000000 0x00000021 0x2c100800
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 80000002,  0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 80000003,  0: 0x37692029 0x3137342d 0x20514d30 0x20555043
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 80000004,  0: 0x2e322040 0x48473035 0x0000007a 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 80000006,  0: 0x00000000 0x00000000 0x01006040 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 80000007,  0: 0x00000000 0x00000000 0x00000000 0x00000100
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID guest level 80000008,  0: 0x00003028 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: guest vs. host CPUID *host level 80000008,  0: 0x00003027 0x00000000 0x00000000 0x00000000
+2020-03-19T15:06:55.258+03:00| vmx| I125: Minimum ucode level: 0x00000025
+2020-03-19T15:06:55.258+03:00| vmx| I125: VPMC: events will use hybrid freeze.
+2020-03-19T15:06:55.258+03:00| vmx| I125: VPMC: gen counters: num 4 mask 0xffffffffffff
+2020-03-19T15:06:55.258+03:00| vmx| I125: VPMC: fix counters: num 0 mask 0; version 1
+2020-03-19T15:06:55.258+03:00| vmx| I125: VPMC: hardware counters: 0
+2020-03-19T15:06:55.258+03:00| vmx| I125: SVGA-PCI: BAR gfbSize=134217728, fifoSize=8388608
+2020-03-19T15:06:55.258+03:00| vmx| I125: SVGA: SVGA_REG_MEMORY_SIZE=822083584
+2020-03-19T15:06:55.258+03:00| vmx| I125: SVGA: SVGA_REG_VRAM_SIZE=16777216
+2020-03-19T15:06:55.258+03:00| vmx| I125: BusMemSampleSetUpStats: touched: initPct 75 pages 3072 : dirtied: initPct 75 pages 3072
+2020-03-19T15:06:55.258+03:00| vmx| I125: MemSched: caller 0 numvm 1 locked pages: num 453 max 1478058
+2020-03-19T15:06:55.258+03:00| vmx| I125: MemSched: locked Page Limit: host 1658259 config 1624576 dynam 1486250
+2020-03-19T15:06:55.258+03:00| vmx| I125: MemSched: minmempct 50  timestamp 166089
+2020-03-19T15:06:55.258+03:00| vmx| I125: MemSched: VM 0 min 11373 max 13421 shares 4096 paged 1063677 nonpaged 5707 anonymous 3618 locked 453 touchedPct 75 dirtiedPct 75 timestamp 166089 vmResponsive is 1
+2020-03-19T15:06:55.258+03:00| vmx| I125: MemSched: locked 453 target 13421 balloon 0 0 0 swapped 0 0 allocd 0 512 state 0 100
+2020-03-19T15:06:55.258+03:00| vmx| I125: MemSched: states: 0 1 : 1 0 : 2 0 : 3 0
+2020-03-19T15:06:55.258+03:00| vmx| I125: MemSched: Balloon enabled 1 guestType 0 maxSize 0
+2020-03-19T15:06:55.258+03:00| vmx| I125: PStrIntern expansion: nBkts=256
+2020-03-19T15:06:55.258+03:00| vmx| I125: FeatureCompat: Capabilities:
+2020-03-19T15:06:55.258+03:00| vmx| I125: Capability Found: cpuid.sse3 = 1
+2020-03-19T15:06:55.258+03:00| vmx| I125: Capability Found: cpuid.pclmulqdq = 1
+2020-03-19T15:06:55.258+03:00| vmx| I125: Capability Found: cpuid.mwait = 1
+2020-03-19T15:06:55.258+03:00| vmx| I125: Capability Found: cpuid.vmx = 1
+2020-03-19T15:06:55.258+03:00| vmx| I125: Capability Found: cpuid.ssse3 = 1
+2020-03-19T15:06:55.258+03:00| vmx| I125: Capability Found: cpuid.fma = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.cmpxchg16b = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.pcid = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.sse41 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.sse42 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.movbe = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.popcnt = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.aes = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.xsave = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.avx = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.f16c = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.rdrand = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.ds = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.ss = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.fsgsbase = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.bmi1 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.avx2 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.smep = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.bmi2 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.enfstrg = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.invpcid = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.stibp = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.fcmd = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.ssbd = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.xcr0_master_sse = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.xcr0_master_ymm_h = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.xsaveopt = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.lahf64 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.abm = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.nx = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.pdpe1gb = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.rdtscp = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.lm = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.intel = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.ibrs = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: cpuid.ibpb = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: hv.capable = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vt.realmode = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: misc.cpuidfaulting = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vt.eptad = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vt.ple = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.microarchitecture.haswell = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.numgenctrs = 4
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.numfixedctrs = 3
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.genwidth = 0x30
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.fixedwidth = 0x30
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.version = 3
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.genctr.0 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.genctr.1 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.genctr.2 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.genctr.3 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.fixctr.0 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.fixctr.1 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: Capability Found: vpmc.fixctr.2 = 1
+2020-03-19T15:06:55.263+03:00| vmx| I125: FeatureCompat: Requirements:
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.sse3 - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.pclmulqdq - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.ssse3 - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.cmpxchg16b - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.sse41 - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.sse42 - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.movbe - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.popcnt - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.aes - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.ss - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.lahf64 - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.nx - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.rdtscp - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.lm - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: VM Features Required: cpuid.intel - Bool:Min:1
+2020-03-19T15:06:55.263+03:00| vmx| I125: TOOLS received request in VMX to set option 'enableDnD' -> '1'
+2020-03-19T15:06:55.263+03:00| vmx| I125: Active HV capabilities
+2020-03-19T15:06:55.263+03:00| vmx| I125:    Address space identifiers
+2020-03-19T15:06:55.263+03:00| vmx| I125:    Flush by ASID
+2020-03-19T15:06:55.263+03:00| vmx| I125:    Full decode
+2020-03-19T15:06:55.263+03:00| vmx| I125:    MSR permission bitmap
+2020-03-19T15:06:55.263+03:00| vmx| I125:    Nested paging A/D bits
+2020-03-19T15:06:55.263+03:00| vmx| I125:    Next RIP
+2020-03-19T15:06:55.263+03:00| vmx| I125:    Real-address mode
+2020-03-19T15:06:55.263+03:00| vmx| I125:    Skip debug state
+2020-03-19T15:06:55.263+03:00| vmx| I125:    X2APIC virtualization
+2020-03-19T15:06:55.263+03:00| vmx| I125:    INVEPT single-context
+2020-03-19T15:06:55.263+03:00| vmx| I125:    PAUSE-loop exiting
+2020-03-19T15:06:55.263+03:00| vmx| I125: 
+2020-03-19T15:06:55.263+03:00| vmx| I125+ OvhdMem: Static (Power On) Overheads
+2020-03-19T15:06:55.263+03:00| vmx| I125:                                                       reserved      |          used
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem excluded                                  cur    max    avg |    cur    max    avg
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_MainMem                    :    4096   4096      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxText                    :    7168   7168      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxTextLibs                :   15360  15360      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem Total excluded                      :   26624  26624      - |      -      -      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem Actual maximum                      :          26624        |             -
+2020-03-19T15:06:55.263+03:00| vmx| I125+ 
+2020-03-19T15:06:55.263+03:00| vmx| I125:                                                       reserved      |          used
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem paged                                     cur    max    avg |    cur    max    avg
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_STATS_vmm                  :       2      2      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_STATS_device               :       1      1      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_DiskLibMemUsed             :    3075   3075      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaSurfaceTable           :    2688   2688      - |    384    384      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaBESurfaceTable         :       6      6      - |      2      2      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaHBTables               :     993    993      - |    993    993      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaHBMobListTable         :      69     69      - |      3      3      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaHBShaderTable          :     256    256      - |    192    192      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaSDirtyCache            :      96     96      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaShaderTable            :     704    704      - |    192    192      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaShaderText             :    2048   2048      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaContextCache           :    1355   1355      - |      2      2      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXRTViewTable          :      22     22      - |      6      6      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXDSViewTable          :       3      3      - |      1      1      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXSRViewTable          :     192    192      - |     48     48      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXUAViewTable          :      56     56      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXBlendStateTable      :       8      8      - |      1      1      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXElementLayoutTable   :      50     50      - |      1      1      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXDepthStencilTable    :       4      4      - |      1      1      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXRasterizerStateTable :       4      4      - |      1      1      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXSamplerTable         :      72     72      - |     12     12      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXContextTable         :    1464   1464      - |      1      1      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXShaderTable          :     176    176      - |     48     48      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXShaderText           :    4096   4096      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXStreamOutTable       :     516    516      - |      1      1      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXQueryTable           :     132    132      - |     12     12      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaVAProcessorTable       :       1      1      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaVADecoderTable         :       1      1      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SvgaCursor                 :      10     10      - |     10     10      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxGlobals                 :   10240  10240      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxGlobalsLibs             :    3584   3584      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxHeap                    :   10752  10752      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxMks                     :      33     33      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksRenderOps            :    2222   2222      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxMks3d                   :  454656 454656      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksHBMobs               :  487424 487424      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksLLVM                 :   12288  12288      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksScreenTemp           :    8450   8450      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksVnc                  :    6123   6123      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksScreen               :    8195   8195      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksSVGAVO               :    4096   4096      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksSwbCursor            :    2560   2560      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxPhysMemErrPages         :      10     10      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxSLEntryBuf              :     128    128      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_VmxThreads                 :   34816  34816      - |      0      0      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem Total paged                         :  1063677 1063677      - |   1911   1911      -
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem Actual maximum                      :         1063677        |          1911
+2020-03-19T15:06:55.263+03:00| vmx| I125+ 
+2020-03-19T15:06:55.263+03:00| vmx| I125:                                                       reserved      |          used
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem nonpaged                                  cur    max    avg |    cur    max    avg
+2020-03-19T15:06:55.263+03:00| vmx| I125: OvhdMem OvhdUser_SharedArea                 :     107    107      - |     84     84      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_BusMemTraceBitmap          :       3      3      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_PFrame                     :     229    449      - |    229    229      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_VIDE_KSEG                  :      16     16      - |     16     16      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_VGA                        :      64     64      - |     64     64      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_BalloonMPN                 :       1      1      - |      1      1      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_P2MUpdateBuffer            :       3      3      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_ServicesMPN                :       3      3      - |      3      3      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_LocalApic                  :       2      2      - |      2      2      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_BusError                   :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_VnicGuest                  :      16     16      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_FlashRam                   :     128    128      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_SVGAFB                     :    4096   4096      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_SVGAMEM                    :     512    512      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_HDAudioReg                 :       3      3      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_EHCIRegister               :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_XhciRegister               :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_HyperV                     :       2      2      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_ExtCfg                     :       3      3      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_HVIOBitmap                 :       3      3      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_HVMSRBitmap                :       2      2      - |      1      1      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_VHVGuestMSRBitmap          :       2      2      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_vhvCachedVMCS              :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_vhvNestedAPIC              :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_MonWired                   :      33     33      - |     33     33      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_MonNuma                    :     229    229      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdUser_NVDC                       :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem Total nonpaged                      :    5487   5707      - |    433    433      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem Actual maximum                      :           5707        |           433
+2020-03-19T15:06:55.268+03:00| vmx| I125+ 
+2020-03-19T15:06:55.268+03:00| vmx| I125:                                                       reserved      |          used
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem anonymous                                 cur    max    avg |    cur    max    avg
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_Alloc                       :      96     96      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_BusMemFrame                 :      73     82      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_BusMem2MInfo                :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_BusMem1GInfo                :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_BusMemZapListMPN            :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_MonAS                       :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_GuestMem                    :      24     24      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_TC                          :     513    513      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_Island                      :       4      4      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_BusMemMonAS                 :       4      4      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_PlatformMonAS               :       3      3      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_HVNuma                      :       2      2      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_HV                          :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_VHV                         :       3      3      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_Numa                        :      24     24      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_NumaTextRodata              :     202    202      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_NumaDataBss                 :      27     27      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_BaseWired                   :      29     29      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_Bootstrap                   :    1703   1703      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_GPhysTraced                 :     262    262      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_GPhysHWMMU                  :     262    262      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_GPhysNoTrace                :     262    262      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_PhysMemGart                 :     104    104      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_PhysMemErr                  :       6      6      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem OvhdMon_VProbe                      :       1      1      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem Total anonymous                     :    3609   3618      - |      0      0      -
+2020-03-19T15:06:55.268+03:00| vmx| I125: OvhdMem Actual maximum                      :           3618        |             0
+2020-03-19T15:06:55.268+03:00| vmx| I125+ 
+2020-03-19T15:06:55.268+03:00| vmx| I125: VMMEM: Precise Reservation: 4190MB (MainMem=16MB)
+2020-03-19T15:06:55.268+03:00| vmx| I125: Vix: [mainDispatch.c:1050]: VMAutomation_PowerOn. Powering on.
+2020-03-19T15:06:55.268+03:00| vmx| I125: VMX_PowerOn: ModuleTable_PowerOn = 1
+2020-03-19T15:06:55.268+03:00| vmx| A100: ConfigDB: Setting cleanShutdown = "FALSE"
+2020-03-19T15:06:55.268+03:00| vmx| A100: ConfigDB: Setting softPowerOff = "FALSE"
+2020-03-19T15:06:55.268+03:00| vcpu-0| I125: VTHREAD 22656 "vcpu-0"
+2020-03-19T15:06:55.278+03:00| vcpu-0| I125: MonTimer APIC:0/0 vec: 0
+2020-03-19T15:06:55.278+03:00| vcpu-0| I125: APIC: version = 0x15, max LVT = 6, LDR = 0x80000000, DFR = 0xffffffff
+2020-03-19T15:06:55.283+03:00| svga| I125: SVGA thread is alive
+2020-03-19T15:06:55.283+03:00| vcpu-0| I125: CPU reset: hard (mode 0)
+2020-03-19T15:06:55.285+03:00| vcpu-0| I125: GuestRpc: Successfully created RPCI listening socket.
+2020-03-19T15:06:55.285+03:00| vcpu-0| I125: GuestRpc: Using vsocket for TCLO messaging is disabled.
+2020-03-19T15:06:55.286+03:00| vcpu-0| I125: memoryHotplug: Node 0: Present: 15 MB (100 %) Size:15 MB (100 %)
+2020-03-19T15:06:55.286+03:00| vcpu-0| I125: PIIX4: PM Resuming from suspend type 0x0, chipset.onlineStandby 0
+2020-03-19T15:06:55.381+03:00| vcpu-0| I125: SOUND 743.815575 ES1371Win32GetMixerCtl mixerGetLineInfo error 1024
+2020-03-19T15:06:55.381+03:00| vcpu-0| I125: Msg_Post: Warning
+2020-03-19T15:06:55.381+03:00| vcpu-0| I125: [msg.floppy.badConnectLong] Could not connect to floppy "A:". Correct the configuration and then try to connect the virtual floppy drive.
+2020-03-19T15:06:55.381+03:00| vcpu-0| I125: [msg.device.startdisconnected] Virtual device 'floppy0' will start disconnected.
+2020-03-19T15:06:55.381+03:00| vcpu-0| I125: ----------------------------------------
+2020-03-19T15:06:55.448+03:00| vcpu-0| I125: CDROM: Connecting ide1:0 to 'F:'. type=0 remote=0
+2020-03-19T15:06:55.454+03:00| vcpu-0| I125: CDROM-SG:  Opening device '\\?\scsi#cdrom&ven_hp&prod_dvdrw__su208fb#4&1ed835a5&0&020000#{53f56308-b6bf-11d0-94f2-00a0c91efb8b}'
+2020-03-19T15:06:55.454+03:00| vcpu-0| I125: SGWIN:  IOCTL_SCSI_GET_CAPABILITIES failed: Incorrect function (10002). Trying IOCTL_STORAGE_QUERY_PROPERTY
+2020-03-19T15:06:55.454+03:00| vcpu-0| I125: SGWIN:  '\\?\scsi#cdrom&ven_hp&prod_dvdrw__su208fb#4&1ed835a5&0&020000#{53f56308-b6bf-11d0-94f2-00a0c91efb8b}' Version 32 Length 32 MaxTransferLength 131072 MaxPhysPages 33
+2020-03-19T15:06:55.454+03:00| vcpu-0| I125+ SGWIN:  AlignMask 0x1 PIO AccelTransfer ScanUp CommandQ
+2020-03-19T15:06:55.454+03:00| vcpu-0| I125+ SGWIN:  BusType 11 BusMajorVersion 2 BusMinorVersion 0
+2020-03-19T15:06:55.458+03:00| vcpu-0| I125: CDROM: Checking initial physical media state...
+2020-03-19T15:06:55.458+03:00| vcpu-0| I125: CDROM:  initial physical CDROM state is 4 (sense)
+2020-03-19T15:06:55.458+03:00| vcpu-0| I125: HGFSPublish: publishing 1 shares
+2020-03-19T15:06:55.458+03:00| vcpu-0| I125: Win32U_GetFileAttributes: GetFileAttributesExW("G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmpl", ...) failed, error: 2
+2020-03-19T15:06:55.458+03:00| vcpu-0| I125: PolicyVMXFindPolicyKey: policy file does not exist.
+2020-03-19T15:06:55.468+03:00| vcpu-0| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1872, success=1 additionalError=0
+2020-03-19T15:06:55.468+03:00| vcpu-0| I125: Vix: [mainDispatch.c:4132]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=0, err=0).
+2020-03-19T15:06:55.468+03:00| vcpu-0| I125: Vix: [mainDispatch.c:4132]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+2020-03-19T15:06:55.468+03:00| vcpu-0| I125: Transitioned vmx/execState/val to poweredOn
+2020-03-19T15:06:55.468+03:00| vcpu-0| I125: Tools: Adding Tools inactivity timer.
+2020-03-19T15:06:55.468+03:00| vmx| I125: VUsbUpdateVigorFieldsAndAutoconnect: New set of 5 USB devices
+2020-03-19T15:06:55.468+03:00| vcpu-0| I125: Intel VT: FlexPriority disabled, VPID enabled.
+2020-03-19T15:06:55.468+03:00| vmx| I125: USB: Found device [name:Pixart\ Imaging\ USB\ OPTICAL\ MOUSE vid:093a pid:2510 path:1/0/0/1 speed:low family:hid,hid-bootable instanceId:USB\\VID_093A&PID_2510\\5&13E668FD&0&1 arbRuntimeKey:a version:3]
+2020-03-19T15:06:55.468+03:00| vmx| I125: USB: Found device [name:Toshiba\ DataTraveler\ 2.0 vid:0930 pid:6545 path:1/0/0/3 speed:high family:storage,storage-bulk instanceId:USB\\VID_0930&PID_6545\\1C6F654E5934B031F931CEBC serialnum:1C6F654E5934B031F931CEBC arbRuntimeKey:13 version:3]
+2020-03-19T15:06:55.468+03:00| vmx| I125: USB: Found device [name:Realtek\ HP\ Truevision\ HD vid:0bda pid:5775 path:1/0/0/7 speed:high family:video instanceId:USB\\VID_0BDA&PID_5775\\200901010001 serialnum:200901010001 arbRuntimeKey:4 version:3]
+2020-03-19T15:06:55.468+03:00| vmx| I125: USB: Found device [name:Validity\ Sensors\ (WBF)\ (PID=0050) vid:138a pid:0050 path:1/0/0/14 speed:full family:vendor instanceId:USB\\VID_138A&PID_0050\\3515DFB0EA70 serialnum:3515DFB0EA70 arbRuntimeKey:5 version:3]
+2020-03-19T15:06:55.468+03:00| vmx| I125: USB: Found device [name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3]
+2020-03-19T15:06:55.558+03:00| vcpu-0| I125: UHCI: HCReset
+2020-03-19T15:06:55.579+03:00| mks| I125: MKSControlMgr: connected
+2020-03-19T15:06:55.579+03:00| mks| I125: SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 1.
+2020-03-19T15:06:55.579+03:00| mks| W115: DX11Renderer: Using DXGI 1.0 presentation
+2020-03-19T15:06:55.579+03:00| mks| I125: MKS-HWinMux: Started DX11 presentation backend
+2020-03-19T15:06:55.588+03:00| mks| I125: SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 2.
+2020-03-19T15:06:55.608+03:00| mks| I125: SWBWindow: Window #0 validation failed: no valid host window or host surface.
+2020-03-19T15:06:55.608+03:00| mks| I125: SWBVmdb: Destroy SWB Window Id #0 because an invalid MKSWindow definition is received from UI over VMDB.
+2020-03-19T15:06:55.608+03:00| mks| I125: SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 1.
+2020-03-19T15:06:55.608+03:00| mks| I125: MKS-VMDB: VMDB requested a screenshot
+2020-03-19T15:06:55.619+03:00| svga| I125: MKSScreenShotMgr: Taking a screenshot
+2020-03-19T15:06:55.628+03:00| mks| I125: KHBKL: Unable to parse keystring at: ''
+2020-03-19T15:06:55.659+03:00| mks| I125: SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 2.
+2020-03-19T15:06:55.659+03:00| mks| W115: DX11Renderer: Using DXGI 1.0 presentation
+2020-03-19T15:06:55.659+03:00| mks| W115: DX11Renderer: Using DXGI 1.0 presentation
+2020-03-19T15:06:55.679+03:00| vcpu-0| I125: SVGA: Registering MemSpace at 0xf0000000(0x0) and 0xfe000000(0x0)
+2020-03-19T15:06:55.679+03:00| vcpu-0| I125: SVGA: FIFO is already mapped
+2020-03-19T15:06:55.679+03:00| vcpu-0| I125: SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2020-03-19T15:06:55.679+03:00| vcpu-0| I125: SVGA: FIFO is already mapped
+2020-03-19T15:06:55.803+03:00| vcpu-0| I125: SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2020-03-19T15:06:55.803+03:00| vcpu-0| I125: SVGA: FIFO is already mapped
+2020-03-19T15:06:55.808+03:00| vcpu-0| I125: SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2020-03-19T15:06:55.808+03:00| vcpu-0| I125: SVGA: FIFO is already mapped
+2020-03-19T15:06:55.808+03:00| vcpu-0| I125: SVGA: Registering IOSpace at 0x10d0
+2020-03-19T15:06:55.808+03:00| vcpu-0| I125: SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2020-03-19T15:06:55.808+03:00| vcpu-0| I125: SVGA: FIFO is already mapped
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.811+03:00| vcpu-0| I125: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.818+03:00| vcpu-0| I125: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.818+03:00| vcpu-0| I125: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.818+03:00| vcpu-0| I125: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.829+03:00| vcpu-0| I125: SVGA: FIFO is already mapped
+2020-03-19T15:06:55.829+03:00| vcpu-0| I125: SVGA: FIFO is already mapped
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.948+03:00| vcpu-0| I125: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:55.958+03:00| vcpu-0| I125: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2020-03-19T15:06:56.038+03:00| vcpu-0| I125: VIDE: Curr CHS info cyls: 207 heads: 16 sects: 63 lba_cap: 208896
+2020-03-19T15:06:56.048+03:00| vcpu-0| I125: VIDE: Curr CHS info cyls: 16136 heads: 15 sects: 63 lba_cap: 15249408
+2020-03-19T15:06:56.088+03:00| vmx| I125: VUsbUpdateVigorFieldsAndAutoconnect: New set of 5 USB devices
+2020-03-19T15:06:56.088+03:00| vmx| I125: USB: Found device [name:Pixart\ Imaging\ USB\ OPTICAL\ MOUSE vid:093a pid:2510 path:1/0/0/1 speed:low family:hid,hid-bootable instanceId:USB\\VID_093A&PID_2510\\5&13E668FD&0&1 arbRuntimeKey:a version:3]
+2020-03-19T15:06:56.088+03:00| vmx| I125: USB: Found device [name:Toshiba\ DataTraveler\ 2.0 vid:0930 pid:6545 path:1/0/0/3 speed:high family:storage,storage-bulk instanceId:USB\\VID_0930&PID_6545\\1C6F654E5934B031F931CEBC serialnum:1C6F654E5934B031F931CEBC arbRuntimeKey:13 version:3]
+2020-03-19T15:06:56.088+03:00| vmx| I125: USB: Found device [name:Realtek\ HP\ Truevision\ HD vid:0bda pid:5775 path:1/0/0/7 speed:high family:video instanceId:USB\\VID_0BDA&PID_5775\\200901010001 serialnum:200901010001 arbRuntimeKey:4 version:3]
+2020-03-19T15:06:56.088+03:00| vmx| I125: USB: Found device [name:Validity\ Sensors\ (WBF)\ (PID=0050) vid:138a pid:0050 path:1/0/0/14 speed:full family:vendor instanceId:USB\\VID_138A&PID_0050\\3515DFB0EA70 serialnum:3515DFB0EA70 arbRuntimeKey:5 version:3]
+2020-03-19T15:06:56.088+03:00| vmx| I125: USB: Found device [name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3]
+2020-03-19T15:06:56.179+03:00| vcpu-0| I125: BIOS-UUID is 56 4d 48 48 ff e8 0f 06-35 09 b6 e5 82 84 f7 46
+2020-03-19T15:06:56.231+03:00| mks| W115: DX11Renderer: Using DXGI 1.0 presentation
+2020-03-19T15:06:56.268+03:00| vcpu-0| I125: DDB: "longContentID" = "854866fa6cb5532ad34d22f1b52e3cb0" (was "ba19bd2003c8e6f0efb33ac7b0da5ed5")
+2020-03-19T15:07:02.592+03:00| vmx| I125: TOOLS received request in VMX to set option 'synctime' -> '0'
+2020-03-19T15:07:02.592+03:00| vmx| A100: ConfigDB: Setting tools.syncTime = "FALSE"
+2020-03-19T15:07:02.603+03:00| vmx| I125: VMXVmdb_SetCfgState: cfgReqPath=/vm/#_VMX/vmx/cfgState/req/#1a/, remDevPath=/vm/#_VMX/vmx/vigor/setCfgStateReq/#f5/in/
+2020-03-19T15:07:02.668+03:00| vmx| I125: TOOLS received request in VMX to set option 'synctime' -> '0'
+2020-03-19T15:07:02.668+03:00| vmx| A100: ConfigDB: Setting tools.syncTime = "FALSE"
+2020-03-19T15:07:02.679+03:00| vmx| A100: ConfigDB: Setting tools.upgrade.policy = "useGlobal"
+2020-03-19T15:07:02.689+03:00| vmx| I125: USB: Connecting pattern [path:1/0/0/3] controller []
+2020-03-19T15:07:02.689+03:00| vmx| I125: USB: Connecting device desc:name:Toshiba\ DataTraveler\ 2.0 vid:0930 pid:6545 path:1/0/0/3 speed:high family:storage,storage-bulk instanceId:USB\\VID_0930&PID_6545\\1C6F654E5934B031F931CEBC serialnum:1C6F654E5934B031F931CEBC arbRuntimeKey:13 version:3 id:0x1000001309306545
+2020-03-19T15:07:02.689+03:00| vmx| I125: Policy_GetUSBDevAccess: checking usb devices at policy path: /vm/#_VMX/mvm/policyState/val/policySet/usbDevices/#
+2020-03-19T15:07:02.689+03:00| vmx| I125: Policy_GetUSBDevAccess: allowConnect = YES
+2020-03-19T15:07:02.689+03:00| vmx| I125: MsgHint: msg.usb.hcAutoConnect
+2020-03-19T15:07:02.689+03:00| vmx| I125+ The device 'Toshiba DataTraveler 2.0' was unable to connect to its ideal host controller. An attempt will be made to connect this device to the best available host controller. This might result in undefined behavior for this device.---------------------------------------
+2020-03-19T15:07:04.109+03:00| vmx| I125: MsgHint: msg.usb.generic.stopDevice
+2020-03-19T15:07:04.109+03:00| vmx| I125+ A USB device is about to be unplugged from the host and connected to this virtual machine. It will first be stopped to enable safe removal. With some devices, the host may display the message "The device can now safely be removed."
+2020-03-19T15:07:04.109+03:00| vmx| I125+ ---------------------------------------
+2020-03-19T15:07:04.128+03:00| vmx| I125: USBG: Created 1000001309306545
+2020-03-19T15:07:04.128+03:00| vmx| A100: ConfigDB: Unsetting "usb.generic.pluginAction"
+2020-03-19T15:07:04.138+03:00| vmx| I125: VUsbUpdateVigorFieldsAndAutoconnect: New set of 5 USB devices
+2020-03-19T15:07:04.138+03:00| vmx| I125: USB: Found device [name:Pixart\ Imaging\ USB\ OPTICAL\ MOUSE vid:093a pid:2510 path:1/0/0/1 speed:low family:hid,hid-bootable instanceId:USB\\VID_093A&PID_2510\\5&13E668FD&0&1 arbRuntimeKey:a version:3]
+2020-03-19T15:07:04.138+03:00| vmx| I125: USB: Found device [name:Toshiba\ DataTraveler\ 2.0 vid:0930 pid:6545 path:1/0/0/3 speed:high family:storage,storage-bulk virtPath:usb:0 instanceId:USB\\VID_0930&PID_6545\\1C6F654E5934B031F931CEBC serialnum:1C6F654E5934B031F931CEBC arbRuntimeKey:13 ownerdisplay:MS-DOS\ 8.0\ Rus version:3], connected to usb port 0.
+2020-03-19T15:07:04.138+03:00| vmx| I125: USB: Found device [name:Realtek\ HP\ Truevision\ HD vid:0bda pid:5775 path:1/0/0/7 speed:high family:video instanceId:USB\\VID_0BDA&PID_5775\\200901010001 serialnum:200901010001 arbRuntimeKey:4 version:3]
+2020-03-19T15:07:04.138+03:00| vmx| I125: USB: Found device [name:Validity\ Sensors\ (WBF)\ (PID=0050) vid:138a pid:0050 path:1/0/0/14 speed:full family:vendor instanceId:USB\\VID_138A&PID_0050\\3515DFB0EA70 serialnum:3515DFB0EA70 arbRuntimeKey:5 version:3]
+2020-03-19T15:07:04.138+03:00| vmx| I125: USB: Found device [name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3]
+2020-03-19T15:07:04.353+03:00| vmx| I125: VUsbUpdateVigorFieldsAndAutoconnect: New set of 5 USB devices
+2020-03-19T15:07:04.353+03:00| vmx| I125: USB: Found device [name:Pixart\ Imaging\ USB\ OPTICAL\ MOUSE vid:093a pid:2510 path:1/0/0/1 speed:low family:hid,hid-bootable instanceId:USB\\VID_093A&PID_2510\\5&13E668FD&0&1 arbRuntimeKey:a version:3]
+2020-03-19T15:07:04.353+03:00| vmx| I125: USB: Found device [name:Toshiba\ DataTraveler\ 2.0 vid:0930 pid:6545 path:1/0/0/3 speed:high family:vendor,storage,storage-bulk virtPath:usb:0 instanceId:USB\\VID_0E0F&PID_0001\\1C6F654E5934B031F931CEBC serialnum:1C6F654E5934B031F931CEBC arbRuntimeKey:13 ownerdisplay:MS-DOS\ 8.0\ Rus version:3], connected to usb port 0.
+2020-03-19T15:07:04.353+03:00| vmx| I125: USB: Found device [name:Realtek\ HP\ Truevision\ HD vid:0bda pid:5775 path:1/0/0/7 speed:high family:video instanceId:USB\\VID_0BDA&PID_5775\\200901010001 serialnum:200901010001 arbRuntimeKey:4 version:3]
+2020-03-19T15:07:04.353+03:00| vmx| I125: USB: Found device [name:Validity\ Sensors\ (WBF)\ (PID=0050) vid:138a pid:0050 path:1/0/0/14 speed:full family:vendor instanceId:USB\\VID_138A&PID_0050\\3515DFB0EA70 serialnum:3515DFB0EA70 arbRuntimeKey:5 version:3]
+2020-03-19T15:07:04.353+03:00| vmx| I125: USB: Found device [name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3]
+2020-03-19T15:07:04.353+03:00| vmx| I125: USBGA: device 1000001309306545 arrived
+2020-03-19T15:07:04.353+03:00| vmx| I125: USBGW: Disabling USB 3.0 streams
+2020-03-19T15:07:04.353+03:00| vmx| I125: VUsbUpdateVigorFieldsAndAutoconnect: New set of 5 USB devices
+2020-03-19T15:07:04.353+03:00| vmx| I125: USB: Found device [name:Pixart\ Imaging\ USB\ OPTICAL\ MOUSE vid:093a pid:2510 path:1/0/0/1 speed:low family:hid,hid-bootable instanceId:USB\\VID_093A&PID_2510\\5&13E668FD&0&1 arbRuntimeKey:a version:3]
+2020-03-19T15:07:04.353+03:00| vmx| I125: USB: Found device [name:Toshiba\ DataTraveler\ 2.0 vid:0930 pid:6545 path:1/0/0/3 speed:high family:vendor,storage,storage-bulk virtPath:usb:0 instanceId:USB\\VID_0E0F&PID_0001\\1C6F654E5934B031F931CEBC serialnum:1C6F654E5934B031F931CEBC arbRuntimeKey:13 ownerdisplay:MS-DOS\ 8.0\ Rus version:3], connected to usb port 0.
+2020-03-19T15:07:04.353+03:00| vmx| I125: USB: Found device [name:Realtek\ HP\ Truevision\ HD vid:0bda pid:5775 path:1/0/0/7 speed:high family:video instanceId:USB\\VID_0BDA&PID_5775\\200901010001 serialnum:200901010001 arbRuntimeKey:4 version:3]
+2020-03-19T15:07:04.353+03:00| vmx| I125: USB: Found device [name:Validity\ Sensors\ (WBF)\ (PID=0050) vid:138a pid:0050 path:1/0/0/14 speed:full family:vendor instanceId:USB\\VID_138A&PID_0050\\3515DFB0EA70 serialnum:3515DFB0EA70 arbRuntimeKey:5 version:3]
+2020-03-19T15:07:04.353+03:00| vmx| I125: USB: Found device [name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3]
+2020-03-19T15:08:02.618+03:00| vmx| I125: GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2020-03-19T15:08:02.678+03:00| vmx| I125: GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2020-03-19T15:08:02.698+03:00| vmx| I125: GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2020-03-19T15:08:04.163+03:00| vmx| I125: GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2020-03-19T15:08:36.780+03:00| vcpu-0| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A0CA8880:512
+2020-03-19T15:08:36.780+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A0CA8880:512
+2020-03-19T15:08:36.780+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A0CA8880:512
+2020-03-19T15:08:36.780+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A0CA8880:512
+2020-03-19T15:08:36.780+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A0CA8880:512
+2020-03-19T15:08:36.780+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:36.780+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A0CA8880:512
+2020-03-19T15:08:36.780+03:00| vmx| I125: Msg_Question:
+2020-03-19T15:08:36.780+03:00| vmx| I125: [msg.vmxaiomgr.retrycontabort.rudeunplug] The operation on file "\\.\PhysicalDrive2" failed.
+2020-03-19T15:08:36.780+03:00| vmx| I125+ If the file resides on a remote file system, make sure that the network connection and the server where this disk resides are functioning properly. If the file resides on removable media, reattach the media.
+2020-03-19T15:08:36.780+03:00| vmx| I125+ Select _Retry to attempt the operation again.
+2020-03-19T15:08:36.780+03:00| vmx| I125+ Select Cancel to power off the virtual machine.
+2020-03-19T15:08:36.780+03:00| vmx| I125+ Select _Continue to forward the error to the guest operating system.
+2020-03-19T15:08:36.780+03:00| vmx| I125: ----------------------------------------
+2020-03-19T15:08:40.797+03:00| vmx| I125: MsgQuestion: msg.vmxaiomgr.retrycontabort.rudeunplug reply=0
+2020-03-19T15:08:40.797+03:00| vmx| I125: Win32U_GetFileAttributes: GetFileAttributesExW("\\.\PhysicalDrive2", ...) failed, error: 2
+2020-03-19T15:08:40.797+03:00| vmx| I125: Msg_Question:
+2020-03-19T15:08:40.797+03:00| vmx| I125: [msg.vmxaiomgr.retrycontabort.rudeunplug] The operation on file "\\.\PhysicalDrive2" failed.
+2020-03-19T15:08:40.797+03:00| vmx| I125+ If the file resides on a remote file system, make sure that the network connection and the server where this disk resides are functioning properly. If the file resides on removable media, reattach the media.
+2020-03-19T15:08:40.797+03:00| vmx| I125+ Select _Retry to attempt the operation again.
+2020-03-19T15:08:40.797+03:00| vmx| I125+ Select Cancel to power off the virtual machine.
+2020-03-19T15:08:40.797+03:00| vmx| I125+ Select _Continue to forward the error to the guest operating system.
+2020-03-19T15:08:40.797+03:00| vmx| I125: ----------------------------------------
+2020-03-19T15:08:41.787+03:00| vmx| I125: MsgQuestion: msg.vmxaiomgr.retrycontabort.rudeunplug reply=2
+2020-03-19T15:08:41.787+03:00| vmx| I125: DISKLIB-LIB   : RWv failed ioId: #157 (3604489) (9) .
+2020-03-19T15:08:41.787+03:00| vmx| I125: DISK: Disk I/O on 'ide0:1' failed: The specified network resource or device is no longer available (3604489)
+2020-03-19T15:08:41.787+03:00| vmx| I125: ###### dumping content of iov ######
+2020-03-19T15:08:41.787+03:00| vmx| I125: READ
+2020-03-19T15:08:41.787+03:00| vmx| I125: startSector = 17104
+2020-03-19T15:08:41.787+03:00| vmx| I125: numSectors = 1
+2020-03-19T15:08:41.787+03:00| vmx| I125: numBytes = 512
+2020-03-19T15:08:41.787+03:00| vmx| I125: numEntries = 1
+2020-03-19T15:08:41.787+03:00| vmx| I125:   entries[0] = 2C3A0CA8880 / 512
+2020-03-19T15:08:41.787+03:00| vmx| I125: ide0:1: Command READ(10) took 5.014 seconds (ok)
+2020-03-19T15:08:41.787+03:00| vcpu-0| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A7460000:512
+2020-03-19T15:08:41.797+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A7460000:512
+2020-03-19T15:08:41.797+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A7460000:512
+2020-03-19T15:08:41.797+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A7460000:512
+2020-03-19T15:08:41.797+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A7460000:512
+2020-03-19T15:08:41.797+03:00| vmx| I125: AIOWIN32C: '\\.\PhysicalDrive2' : Failed to read: The specified network resource or device is no longer available (55).
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: Retry on read "\\.\PhysicalDrive2" : The specified network resource or device is no longer available.
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: system : err=370002 errCode=55 freeSpace=18446744073709551615
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR: "\\.\PhysicalDrive2" : read s=8757248 n=512 ne=1, fai=0
+2020-03-19T15:08:41.797+03:00| vmx| I125: VMXAIOMGR:             v[0]=2C3A7460000:512
+2020-03-19T15:08:41.797+03:00| vmx| I125: Msg_Question:
+2020-03-19T15:08:41.797+03:00| vmx| I125: [msg.vmxaiomgr.retrycontabort.rudeunplug] The operation on file "\\.\PhysicalDrive2" failed.
+2020-03-19T15:08:41.797+03:00| vmx| I125+ If the file resides on a remote file system, make sure that the network connection and the server where this disk resides are functioning properly. If the file resides on removable media, reattach the media.
+2020-03-19T15:08:41.797+03:00| vmx| I125+ Select _Retry to attempt the operation again.
+2020-03-19T15:08:41.797+03:00| vmx| I125+ Select Cancel to power off the virtual machine.
+2020-03-19T15:08:41.797+03:00| vmx| I125+ Select _Continue to forward the error to the guest operating system.
+2020-03-19T15:08:41.797+03:00| vmx| I125: ----------------------------------------
+2020-03-19T15:08:42.917+03:00| vmx| I125: MsgQuestion: msg.vmxaiomgr.retrycontabort.rudeunplug reply=2
+2020-03-19T15:08:42.917+03:00| vmx| I125: DISKLIB-LIB   : RWv failed ioId: #158 (3604489) (9) .
+2020-03-19T15:08:42.917+03:00| vmx| I125: DISK: Disk I/O on 'ide0:1' failed: The specified network resource or device is no longer available (3604489)
+2020-03-19T15:08:42.917+03:00| vmx| I125: ###### dumping content of iov ######
+2020-03-19T15:08:42.917+03:00| vmx| I125: READ
+2020-03-19T15:08:42.917+03:00| vmx| I125: startSector = 17104
+2020-03-19T15:08:42.917+03:00| vmx| I125: numSectors = 1
+2020-03-19T15:08:42.917+03:00| vmx| I125: numBytes = 512
+2020-03-19T15:08:42.917+03:00| vmx| I125: numEntries = 1
+2020-03-19T15:08:42.917+03:00| vmx| I125:   entries[0] = 2C3A7460000 / 512
+2020-03-19T15:08:42.917+03:00| vmx| I125: ide0:1: Command READ(10) took 1.126 seconds (ok)
+2020-03-19T15:08:42.917+03:00| vcpu-0| I125: VIDE: Curr CHS info cyls: 207 heads: 16 sects: 63 lba_cap: 208896
+2020-03-19T15:08:42.917+03:00| vcpu-0| I125: VIDE: Curr CHS info cyls: 16136 heads: 15 sects: 63 lba_cap: 15249408
+2020-03-19T15:09:03.592+03:00| vmx| I125: Vix: [vmxCommands.c:558]: VMAutomation_InitiatePowerOff. Trying hard powerOff
+2020-03-19T15:09:03.592+03:00| vmx| I125: Stopping VCPU threads...
+2020-03-19T15:09:03.594+03:00| svga| I125: SVGA thread is exiting
+2020-03-19T15:09:03.597+03:00| mks| I125: SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 1.
+2020-03-19T15:09:03.597+03:00| mks| I125: SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 0.
+2020-03-19T15:09:03.597+03:00| vmx| I125: MKS thread is stopped
+2020-03-19T15:09:03.606+03:00| vmx| I125: USB: Disconnecting device 0x1000001309306545
+2020-03-19T15:09:03.606+03:00| vmx| I125: USBG: Disconnecting 1000001309306545, port:0 reservedPort:0
+2020-03-19T15:09:03.606+03:00| vmx| I125: USBGW: Disconnecting device: 2C3A084BE98 id: 1000001309306545
+2020-03-19T15:09:03.606+03:00| vmx| I125: 
+2020-03-19T15:09:03.606+03:00| vmx| I125+ OvhdMem: Final (Power Off) Overheads
+2020-03-19T15:09:03.606+03:00| vmx| I125:                                                       reserved      |          used
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem excluded                                  cur    max    avg |    cur    max    avg
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_MainMem                    :    4096   4096      - |   1280   1280      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxText                    :    7168   7168      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxTextLibs                :   15360  15360      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem Total excluded                      :   26624  26624      - |      -      -      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem Actual maximum                      :          26624        |             -
+2020-03-19T15:09:03.606+03:00| vmx| I125+ 
+2020-03-19T15:09:03.606+03:00| vmx| I125:                                                       reserved      |          used
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem paged                                     cur    max    avg |    cur    max    avg
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_STATS_vmm                  :       2      2      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_STATS_device               :       1      1      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_DiskLibMemUsed             :    3075   3075      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaSurfaceTable           :    2688   2688      - |    384    384      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaBESurfaceTable         :       6      6      - |      2      2      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaHBTables               :     993    993      - |    993    993      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaHBMobListTable         :      69     69      - |      3      3      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaHBShaderTable          :     256    256      - |    192    192      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaSDirtyCache            :      96     96      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaShaderTable            :     704    704      - |    192    192      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaShaderText             :    2048   2048      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaContextCache           :    1355   1355      - |      2      2      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXRTViewTable          :      22     22      - |      6      6      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXDSViewTable          :       3      3      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXSRViewTable          :     192    192      - |     48     48      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXUAViewTable          :      56     56      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXBlendStateTable      :       8      8      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXElementLayoutTable   :      50     50      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXDepthStencilTable    :       4      4      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXRasterizerStateTable :       4      4      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXSamplerTable         :      72     72      - |     12     12      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXContextTable         :    1464   1464      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXShaderTable          :     176    176      - |     48     48      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXShaderText           :    4096   4096      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXStreamOutTable       :     516    516      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaDXQueryTable           :     132    132      - |     12     12      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaVAProcessorTable       :       1      1      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaVADecoderTable         :       1      1      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SvgaCursor                 :      10     10      - |     10     10      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxGlobals                 :   10240  10240      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxGlobalsLibs             :    3584   3584      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxHeap                    :   10752  10752      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxMks                     :      33     33      - |     17     17      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksRenderOps            :    2222   2222      - |   2222   2222      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxMks3d                   :  454656 454656      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksHBMobs               :  487424 487424      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksLLVM                 :   12288  12288      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksScreenTemp           :    8450   8450      - |      0      3      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksVnc                  :    6123   6123      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksScreen               :    8195   8195      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksSVGAVO               :    4096   4096      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxMksSwbCursor            :    2560   2560      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxPhysMemErrPages         :      10     10      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxSLEntryBuf              :     128    128      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VmxThreads                 :   34816  34816      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem Total paged                         :  1063677 1063677      - |   4150   4153      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem Actual maximum                      :         1063677        |          4150
+2020-03-19T15:09:03.606+03:00| vmx| I125+ 
+2020-03-19T15:09:03.606+03:00| vmx| I125:                                                       reserved      |          used
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem nonpaged                                  cur    max    avg |    cur    max    avg
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SharedArea                 :     107    107      - |     84     84      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_BusMemTraceBitmap          :       3      3      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_PFrame                     :     229    449      - |    229    229      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VIDE_KSEG                  :      16     16      - |     16     16      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VGA                        :      64     64      - |     64     64      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_BalloonMPN                 :       1      1      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_P2MUpdateBuffer            :       3      3      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_ServicesMPN                :       3      3      - |      3      3      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_LocalApic                  :       2      2      - |      2      2      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_BusError                   :       1      1      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VBIOS                      :       8      8      - |      8      8      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VnicGuest                  :      16     16      - |     16     16      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SBIOS                      :      16     16      - |      2      2      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_FlashRam                   :     128    128      - |     58     58      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SVGAFB                     :    4096   4096      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_SVGAMEM                    :     512    512      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_HDAudioReg                 :       3      3      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_EHCIRegister               :       1      1      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_XhciRegister               :       1      1      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_HyperV                     :       2      2      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_ExtCfg                     :       3      3      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_HVIOBitmap                 :       3      3      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_HVMSRBitmap                :       2      2      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_VHVGuestMSRBitmap          :       2      2      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_vhvCachedVMCS              :       1      1      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_vhvNestedAPIC              :       1      1      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_MonWired                   :      33     33      - |     33     33      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_MonNuma                    :     229    229      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdUser_NVDC                       :       1      1      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem Total nonpaged                      :    5487   5707      - |    520    520      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem Actual maximum                      :           5707        |           520
+2020-03-19T15:09:03.606+03:00| vmx| I125+ 
+2020-03-19T15:09:03.606+03:00| vmx| I125:                                                       reserved      |          used
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem anonymous                                 cur    max    avg |    cur    max    avg
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_Alloc                       :      96     96      - |     27     66      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_BusMemFrame                 :      73     82      - |     73     73      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_BusMem2MInfo                :       1      1      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_BusMem1GInfo                :       1      1      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_BusMemZapListMPN            :       1      1      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_MonAS                       :       1      1      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_GuestMem                    :      24     24      - |     24     24      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_TC                          :     513    989      - |    477    954      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_Island                      :       4      4      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_BusMemMonAS                 :       4      4      - |      4      4      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_PlatformMonAS               :       3      3      - |      2      2      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_HVNuma                      :       2      2      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_HV                          :       1      1      - |      1      1      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_VHV                         :       3      3      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_Numa                        :      24     24      - |     14     24      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_NumaTextRodata              :     202    377      - |    175    350      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_NumaDataBss                 :      27     27      - |     26     26      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_NumaLargeData               :       0    512      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_BaseWired                   :      28     29      - |     20     21      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_Bootstrap                   :       0   1703      - |      0    326      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_GPhysTraced                 :     262    262      - |     67     70      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_GPhysHWMMU                  :     262    262      - |    135    140      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_GPhysNoTrace                :     262    262      - |     67     70      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_PhysMemGart                 :     104    104      - |     96     96      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_PhysMemErr                  :       6      6      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem OvhdMon_VProbe                      :       1      1      - |      0      0      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem Total anonymous                     :    1905   4781      - |   1212   2251      -
+2020-03-19T15:09:03.606+03:00| vmx| I125: OvhdMem Actual maximum                      :           3618        |          1777
+2020-03-19T15:09:03.606+03:00| vmx| I125+ 
+2020-03-19T15:09:03.606+03:00| vmx| I125: VMMEM: Maximum Reservation: 4195MB (MainMem=16MB)
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: BALLOON HIST [0, 4096]: 122 122 0 0 0 0 0 0 0 0 0 0
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: BALLOON P50 1 P70 1 P90 1 MIN 0 MAX 0
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: SWAP HIST [0, 4096]: 122 122 0 0 0 0 0 0 0 0 0 0
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: SWAP P50 1 P70 1 P90 1 MIN 0 MAX 0
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: LOCK HIST [0, 4096]: 0 0 1 0 0 0 0 0 121 0 0 0
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: LOCK P50 80 P70 80 P90 80 MIN 453 MAX 3011
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: LOCK_TARGET HIST [0, 4096]: 0 0 0 121 0 0 0 0 1 0 0 0
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: LOCK_TARGET P50 30 P70 30 P90 30 MIN 4096 MAX 13421
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: ACTIVE_PCT HIST [0, 100]: 0 0 0 0 0 0 0 0 122 0 0 0
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: ACTIVE_PCT P50 80 P70 80 P90 80 MIN 75 MAX 75
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: NUM_VMS HIST [0, 10]: 0 0 122 0 0 0 0 0 0 0 0 0
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: NUM_VMS P50 20 P70 20 P90 20 MIN 1 MAX 1
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: HOSTLOCK HIST [0, 1479729]: 0 122 0 0 0 0 0 0 0 0 0 0
+2020-03-19T15:09:03.606+03:00| vmx| I125: MemSched: HOSTLOCK P50 10 P70 10 P90 10 MIN 453 MAX 3011
+2020-03-19T15:09:03.606+03:00| vmx| I125: TOOLS received request in VMX to set option 'enableDnD' -> '0'
+2020-03-19T15:09:03.606+03:00| vmx| I125: TOOLS received request in VMX to set option 'copypaste' -> '0'
+2020-03-19T15:09:03.606+03:00| vmx| I125: HgfsChannelDeactivateChannel: HGFS [backdoor] channel DEACTIVATED.
+2020-03-19T15:09:03.606+03:00| vmx| I125: HgfsChannelDeactivateChannel: HGFS [vmci] channel DEACTIVATED.
+2020-03-19T15:09:03.606+03:00| vmx| I125: HgfsServerManagerVigorExit: Destroy:
+2020-03-19T15:09:03.606+03:00| vmx| I125: ToolsISO: open of G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2020-03-19T15:09:03.606+03:00| vmx| I125: ToolsISO: Unable to read signature file 'G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2020-03-19T15:09:03.606+03:00| vmx| I125: ToolsISO: Guest 'dos' not found in Tools image map file 'G:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt'
+2020-03-19T15:09:03.612+03:00| vmx| I125: ToolsISO: Updated cached value for imageName to '(null)'.
+2020-03-19T15:09:03.612+03:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2020-03-19T15:09:03.612+03:00| vmx| I125: TOOLS updated cached value for isoImageExists to 0.
+2020-03-19T15:09:03.612+03:00| vmx| I125: Tools: ToolsRunningStatus_Exit, delayedRequest is 0x2C3A069A5D0
+2020-03-19T15:09:03.612+03:00| vmx| I125: Tools: [AppStatus] Last heartbeat value 0 (never received)
+2020-03-19T15:09:03.612+03:00| vmx| I125: TOOLS: appName=toolbox, oldStatus=0, status=0, guestInitiated=0.
+2020-03-19T15:09:03.612+03:00| vmx| I125: TOOLS: appName=toolbox-dnd, oldStatus=0, status=0, guestInitiated=0.
+2020-03-19T15:09:03.612+03:00| vmx| I125: USB: Disconnecting device 0x10e0f0002
+2020-03-19T15:09:03.628+03:00| usbCCIDEnumCards| I125: USB-CCID: Card enum thread exiting.
+2020-03-19T15:09:03.637+03:00| vmx| I125: SOUNDLIB: Closing Wave sound backend.
+2020-03-19T15:09:03.637+03:00| vmx| I125: MKS thread was already stopped
+2020-03-19T15:09:03.637+03:00| mks| I125: MKSControlMgr: disconnected
+2020-03-19T15:09:03.647+03:00| mks| I125: Stopped Shim3D
+2020-03-19T15:09:03.647+03:00| mks| I125: DX11VideoManager: Stalls: count=0, total=0 ms, min/max duration=0/0 ms
+2020-03-19T15:09:03.647+03:00| mks| I125: DX11VideoManager: Stall Frequency [0-254 ms, >= 255 ms] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ]
+2020-03-19T15:09:03.647+03:00| mks| I125: DX11Renderer: Clearing device context
+2020-03-19T15:09:03.647+03:00| mks| I125: DX11Renderer: Release D3D device
+2020-03-19T15:09:03.647+03:00| mks| I125: DX11Renderer: Releasing DXGI Adapter
+2020-03-19T15:09:03.647+03:00| mks| I125: DX11Renderer: Releasing DXGI Factory
+2020-03-19T15:09:03.647+03:00| mks| I125: DX11Renderer: Unloading modules
+2020-03-19T15:09:03.647+03:00| mks| I125: MKS-RenderMain: Stopping DX11Renderer
+2020-03-19T15:09:03.647+03:00| mks| I125: MKS PowerOff
+2020-03-19T15:09:03.647+03:00| mks| I125: MKS thread is exiting
+2020-03-19T15:09:03.647+03:00| vmx| I125: ide0:1: numIOs = 41 numMergedIOs = 0 numSplitIOs = 0 ( 0.0%)
+2020-03-19T15:09:03.647+03:00| vmx| I125: Closing disk 'ide0:1'
+2020-03-19T15:09:03.647+03:00| vmx| I125: W32Util_CloseDismountHandle: Unlocking and closing handles for 1 volumes on PhysicalDrive2...
+2020-03-19T15:09:03.647+03:00| vmx| I125: W32Util_CloseDismountHandle: Successfully unlocked volume \\?\Volume{7b0e7c74-2cf5-11e8-84af-3863bbba8da0} on PhysicalDrive2.
+2020-03-19T15:09:03.647+03:00| vmx| I125: ide0:0: numIOs = 117 numMergedIOs = 5 numSplitIOs = 0 ( 0.0%)
+2020-03-19T15:09:03.652+03:00| vmx| I125: Closing disk 'ide0:0'
+2020-03-19T15:09:03.657+03:00| vmx| I125: AIOWIN32C: asyncOps=169 syncOps=10 bufSize=0Kb fixedOps=0 sgOps=0 sgOn=0
+2020-03-19T15:09:03.657+03:00| aioCompletion| I125: AIO thread processed 157 completions
+2020-03-19T15:09:03.657+03:00| vmx| I125: Vix: [mainDispatch.c:1163]: VMAutomationPowerOff: Powering off.
+2020-03-19T15:09:03.657+03:00| vmx| I125: Win32U_GetFileAttributes: GetFileAttributesExW("G:\Virtual Machines\MSDOS8ru\MS-DOS 8.0 Rus.vmpl", ...) failed, error: 2
+2020-03-19T15:09:03.657+03:00| vmx| I125: Policy_SavePolicyFile: invalid arguments to function.
+2020-03-19T15:09:03.657+03:00| vmx| I125: PolicyVMX_Exit: Could not write out policies: 15.
+2020-03-19T15:09:03.657+03:00| vmx| I125: WORKER: asyncOps=5 maxActiveOps=2 maxPending=2 maxCompleted=1
+2020-03-19T15:09:03.657+03:00| WinNotifyThread| I125: WinNotify thread exiting
+2020-03-19T15:09:03.670+03:00| vmx| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2020-03-19T15:09:03.670+03:00| vmx| I125: Vix: [mainDispatch.c:4233]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2020-03-19T15:09:03.670+03:00| vmx| A100: ConfigDB: Setting cleanShutdown = "TRUE"
+2020-03-19T15:09:03.721+03:00| vmx| I125: Vix: [mainDispatch.c:4215]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2020-03-19T15:09:03.721+03:00| vmx| I125: Vix: [mainDispatch.c:4233]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2020-03-19T15:09:03.721+03:00| vmx| I125: Transitioned vmx/execState/val to poweredOff
+2020-03-19T15:09:03.721+03:00| vmx| I125: VMX idle exit
+2020-03-19T15:09:03.721+03:00| vmx| I125: WQPoolFreePoll : pollIx = 3, signalHandle = 1016
+2020-03-19T15:09:03.727+03:00| vmx| I125: Vix: [mainDispatch.c:815]: VMAutomation_LateShutdown()
+2020-03-19T15:09:03.727+03:00| vmx| I125: Vix: [mainDispatch.c:770]: VMAutomationCloseListenerSocket. Closing listener socket.
+2020-03-19T15:09:03.727+03:00| vmx| I125: Flushing VMX VMDB connections
+2020-03-19T15:09:03.727+03:00| vmx| I125: VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2020-03-19T15:09:03.727+03:00| vmx| I125: VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2020-03-19T15:09:03.727+03:00| vmx| I125: VigorTransport_ServerDestroy: server destroyed.
+2020-03-19T15:09:03.727+03:00| vmx| I125: WQPoolFreePoll : pollIx = 2, signalHandle = 712
+2020-03-19T15:09:03.727+03:00| vmx| I125: WQPoolFreePoll : pollIx = 1, signalHandle = 720
+2020-03-19T15:09:03.729+03:00| vmx| I125: VMX exit (0).
+2020-03-19T15:09:03.729+03:00| vmx| I125: OBJLIB-LIB: ObjLib cleanup done.
+2020-03-19T15:09:03.729+03:00| vmx| I125: AIOMGR-S : stat o=4 r=24 w=2 i=1 br=113648 bw=8320
